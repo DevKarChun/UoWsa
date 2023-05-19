@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorOnBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="90dp">
+
+
+            <TextView
+                android:id="@+id/SportsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/titlebar"
+                android:paddingStart="32dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/sports"
+                android:fontFamily="@font/merriweather_black"
+                android:textColor="?colorAccent"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry" />
+
+            <ImageView
+                android:id="@+id/sportsImage"
+                android:layout_width="412dp"
+                android:layout_height="185dp"
+                android:scaleType="fitStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/SportsTitle"
+                app:srcCompat="@drawable/ic_sports" />
+
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Athletics"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sportsImage" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We’re a small but friendly athletics team, hoping to welcome many new faces in the next year. From pushing our physical abilities to having a chat at the track, we make sure being on the team is a fun and rewarding experience for all our members. There are no requirements to join, so even if you’ve never run before in your life, you’re welcome here! All you have to do before you come along to a session is register yourself to the club via the University of Westminster Student Union site, which is completely free. If you require any further information, feel free to send us an email."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Badminton"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Welcome to Westminster’s Badminton Club! Badminton is a great sport that works every part of the body and keeps you fit. This sport improves your reaction time, agility, and overall movement. Not only that, playing badminton is great for your mental health which is especially important as a student. We have both a men's and a women's team, competing in singles, doubles, and mixed doubles in the BUCS league. These matches will be against other universities, with some of the matches being played at home or away depending on the matchup and the circumstances. Whether you’ve played badminton before, or just want to give it a go, get in touch or come to one of our sessions to get a feel for the sport. We look forward to meeting you!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView114" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Boxing"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The University of Westminster Boxing club is a well-disciplined boxing club, whilst being a social environment at the same time. Our aim is to welcome all people with different abilities in boxing to the club to help them increase their fitness level. Whether you’ve tried boxing before or are a complete newbie, come along and give it a go. We can show you all the basics and help you improve your technique. There will be opportunities to compete if you would like to, where you can demonstrate the skills and strength you have acquired."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView116" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Cheerleading"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView117" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="UWSU Cheerleading is an inclusive, competitive cheerleading team for levels 1-3. We train weekly in preparation for national competitions against other university cheer teams. Everyone is welcome - beginners through to advanced, all genders and all students. At the beginning of the year, we will have taster sessions for you to give it a go and see if it’s for you! Outside of training, we regularly have social events to strengthen our team bond, have fun and take a break! We are always open to ideas for social events and we aim to provide a range across drinking/non-drinking, daytime/evening, low cost, and different campuses. For example, last year's socials included visiting the pub for food and drink after weekly training, creating our own competition mascots at a Build-A-Bear workshop, crafting cards for our winter stall fundraiser and singing our hearts out at karaoke."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView118" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Cricket"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView119" />
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We’re a really fun and successful club, having won 18 of our 20 competitions last year! We won the Tape Ball National Tournament and had a perfect season of 5/5 games in the BUCS outdoor league. The club is keen to help students make connections, so we’re all really supportive and go out for a meal after our training sessions. If you’re looking to be challenged while learning new skills, but also find that social element of university, we’re definitely the club for you!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView120" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Dance"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView121" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text='Whatever your dance background is (even if it’s zero), we got you! With focus on strength, skills, flexibility, technique and creativity, we predominantly work on Contemporary and Street dance styles while also offering workshops in many more styles (e.g. Jazz, Ballroom, Lyrical). We do encourage our students from all levels to choreograph, both for our workshops and competitions/shows, to help them build confidence, refine their moves and explore their capabilities. We aim to organise at least one event per week to encourage students who share common interests to feel comfortable in our dance family and find friends they can potentially keep in touch with even after graduation. We want to build strong friendships and trust between our dancers, because that is how synchronisation and great results are achieved, developing not only their dance and physical skills, but also communication and interaction. We stay in touch with our members through a WhatsApp group chat where absolutely every dancer can ask questions and find support. Also, with our brand-new competitive street dance team "Hydra", created in 2022 we aim to compete at least three times during the academic year, whilst also participating in events organised by our own university societies/teams and external events too (e.g. perform as backup dancers at Varsity). The Dance Team is above all a family: we stand up for and support each other and help each other progress and explore different dance styles.'
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView122" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="ESports"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView123" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Here's at the eSports Society, we're a big family of over 150 members who all share some form of love for esports! We believe that regardless of ability, everyone should be given a chance to represent our university and compete if they want to. We put on events throughout the year such as Discord games nights, collaborative events with the Games Society and even an end of year eSports event held on campus! So, there's multiple activities and socials that you can expect when you join us."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView124" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Karate"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView125" />
+
+            <TextView
+                android:id="@+id/textView127"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Goju Karate is distinct type of the modern-day sport that most people know as ‘Karate’. In fact, we are the forerunner to modern karate and focus on genuine combat effectiveness in a street situation. Most martial arts contain an element of self-defence, but our primary goal is to teach you how to defend yourself in an attack situation. The training which you will receive will therefore cover all possible scenarios from fighting on the ground, to defending yourself against armed assailants, to facing multiple attackers. Besides our regular twice-weekly training at Regent Street Campus, our cornerstone events are Summer School in June – four days away training in the woods near Bristol, Winter Camp in October – a weekend training in Epping Forest - and annual tournaments in April and November every year. We have been training at the University of Westminster under the same instructor, since 1990 – the oldest sports club in the university!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView126" />
+
+            <TextView
+                android:id="@+id/textView128"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Mens Basketball"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView127" />
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Basketball at Westminster has developed immensely over the past five years, including 3x BUCS championships, 2x BUCS promotions and 2x London Men's titles. Westminster Basketball is quickly becoming one of the leading programmes in London. Our basketball programme has attracted students internationally to study in the heart of London. Westminster Basketball pursues excellence on and off the court, with a high graduation rate and alumni playing professionally or working in the industry. Westminster Basketball is in partnership with Brent Bulls, a community basketball club located in North-West London. Brent Bulls currently compete in the Basketball England Men's National League Division 3."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView128" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Mens Football"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView129" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We’re a friendly and supportive team that like to improve our skills while having fun. Whether you’re new to football, or have been playing for years, come along and say hello to see if joining the club is right for you. Follow our Instagram uwsumensfc to keep up to date on any trials or events, or feel free to drop an email at mens.football@su.westminster.ac.uk if you have any questions."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView130" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Mens Rugby"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView131" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="UWSU Men's Rugby is a brotherhood and family that welcomes members of all levels and abilities. We strive to always maintain a healthy and competitive environment, so we can enjoy the game in every way. We train a few times a week and matches take place on Wednesdays. We also arrange socials, such as dinners, nights out and events with the other Dragons teams. Our club is not only challenging, but rewarding, fun and a great place to meet new people."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView132" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Muay Thai"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView133" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Trials begin on 5th October! Everyone from all levels are welcome to join! We train every Monday and Wednesday 8-10pm and Saturday 3-5pm @ Regents Campus Sports Hall."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView134" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Netball"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView135" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We’re a close-knit team that love working hard and playing hard. The team is made up of girls in all different years ranging from people in foundation courses to some members doing their masters. We are in division 8 in the BUCS league with big hopes of moving up the league in the upcoming year. At our weekly training and social events, such as hiring out Simmons bar, going bowling and ice skating, we’ve learned each other’s strengths and increased our team bonding, which positively affects our play on court."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView136" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Rowing"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView137" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The University of Westminster Rowing club is a fun, competitive and inclusive group. We train down in Chiswick, where you can get experience out on the water and improve your skills and technique. There are plenty of opportunities throughout the year to enter a head race or regatta on the river Thames, but our main competition is BUCS regatta, the largest student rowing event in Europe. There are beginner categories, all the way up to championship races so it does not matter what your experience level you can still get involved. BUCS regatta takes place over a weekend in Nottingham, so there is a lot of time for the squad to bond as well as compete! Quintin Boat Club also have an on-site bar in the clubhouse which we can request to use for social events that we organise. Quintin also holds a Halloween party and an annual black-tie rowing dinner that helps us create a better connection between the University members and the members of Quintin."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView138" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Taekwondo"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView139" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Are you curious about Taekwondo? Then come along and find out about the Korean Martial Art that will improve your flexibility, fitness and self-confidence. Our team is known for supporting and looking after our members’ wellbeing, so you’ll be joining a great community that can enhance your time at Westminster. In addition to our training sessions, we hold social meetups for birthdays and other fun events, such as our annual BBQ and Christmas party. Feel free to attend a taster session or contact us via Facebook, Instagram or email."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView140" />
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Tennis"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView141" />
+
+            <TextView
+                android:id="@+id/textView143"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We hold weekly tennis sessions for students to come together, have fun and improve their skills. We have a qualified coach who runs the sessions for a variety of abilities, making sure everyone’s needs are met. We take part in regular matches against other universities, travelling around and out of London to display our skills. We’re a team both on and off the court, so you can expect to make some really great friends here."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView142" />
+
+            <TextView
+                android:id="@+id/textView144"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Volleyball"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView143" />
+
+            <TextView
+                android:id="@+id/textView145"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We are a newly established social yet competitive club looking to welcome those who are new and interested in learning the sport, offering weekly social sessions open to any levels to help individuals improve skill and also make new friends. We also compete in the BUCS championships with a Men’s and Women’s team, with weekly training sessions led by a professional coach. Our aim as a club is to win the league and the championship cup for both teams. Whether you are here to compete with us or you simply want to have fun, learn the sport and make new friends, we offer sessions to make you feel welcomed into the club, as the main thing we strive towards is having fun!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView144" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Womens Basketball"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView145" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Our team consists of players from different nationalities, backgrounds and cultures, yet our love for basketball brings us together as one. We’re motivated, competitive and take our games seriously, but make sure we’re having fun at the same time. At the end of the day, it is our escape from the everyday challenges of university life. Our sense of community makes it feel like we’ve known each other for years. We are not only teammates, we’re a big family."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView146" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Womens Football"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView148" />
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The Westminster Women’s Football club are a small but friendly team who are always looking for new people to come along and play. It doesn’t matter what sort of level and experience you have had playing football, everyone is welcome to come along and train with us. It's a great way to try something new and meet new people at the University! Joining the team is a great way to be part of the Dragons community, as well as having the opportunity to represent the University in a sport you love! We will be aiming to train once a week as well as play in the BUCS league for the academic year 22/23 (that's the league which university teams play in, so we will be competing against other London universities). This will allow players to develop both their individual skills and wider team skills in a fun and enjoyable setting. We will aim to do some social gatherings as a club outside of training throughout the year. These will provide a fantastic opportunity for team members to get to know each other in a relaxed setting whilst doing something more than football. We will hold discussions as a team on what socials people want to do throughout the year, so come along with some ideas! We hope to see you at training soon!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView147" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Yoga"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView159" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="3dp"
+                android:paddingEnd="10dp"
+                android:text="Welcome to the Yoga Society! We run two weekly yoga classes, usually in the evenings. Come join us to restore your mind and body connection and to come back to yourself. It is a great way to disconnect from the busy London environment, and prepare you to tackle your university work with a calm mind. We run lessons from late September to the middle of June. For any queries contact yoga.soc@su.westminster.ac.uk"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView149" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Rock Climbing and Bouldering"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView150" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:text="We’re a fun and inclusive club that welcomes everyone to come and climb with us. Whether you’re a keen climber or a complete beginner, you’re welcome to join! We mostly do bouldering, which involves climbing close to the ground with crash pads to land on. We climb two times a week at HarroWall, and in the past have done competitions in Sheffield and outdoor climbing in the Peak District. Feel free to reach out if you have any questions - our Insta is uwsu_climbing and our email is climbing@su.Westminster.ac.uk"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView151" />
+
+            <TextView
+                android:id="@+id/textView153"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Weightlifting and Powerlifting"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView152" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We are a small weightlifting and powerlifting club with the hopes of welcoming new members in the coming year. From training with fitness in mind to taking part in competitions, we make sure members of any level can take part in our group sessions, making sure they are fun whilst still pushing you to become better. There are no requirements to join the club, so whether it is the first time you've ever lifted a barbell or you're at a competition level, you're welcome to participate! To join us you just have to register to the club through the UWSU website. If you have any questions, don't hesitate to send us an email or DM us on Instagram."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView153" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="For more University of Westminster Student Union Sports, please visit https://uwsu.com/sports, alternatively please press the UWSU Sports button below."
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView154" />
+
+            <Button
+                android:id="@+id/uWSUSocietyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="?colorSecondary"
+                android:text="@string/uwsuSports"
+                android:layout_marginTop="15dp"
+                android:textAlignment="textStart"
+                android:textColor="?colorAccent"
+                android:drawableLeft="@drawable/ic_sportsgroups"
+                android:drawableTint="?colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView155" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bottom_menu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/bottomMenuShape"
+        android:layout_width="421dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/navshape"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageButton
+        android:id="@+id/navHomeBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_home"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/home"
+        app:tint="?colorAccent" />
+
+    <ImageButton
+        android:id="@+id/navProfileBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_profile"
+        android:layout_toEndOf="@+id/navHomeBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/profile"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navUowMessage"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_uow_message_icon1"
+        android:layout_toEndOf="@+id/navProfileBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/uowMessage"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navSettings"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_settings"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/settings"
+        app:tint="?colorAccent"/>
+
+</RelativeLayout>

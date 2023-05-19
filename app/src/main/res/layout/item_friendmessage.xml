@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:id="@+id/layoutFriendMessage"
+    android:background="?colorSecondary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/userImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:id="@+id/connectivityStatusShape"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="@drawable/connectivity_shape"
+                android:layout_alignEnd="@+id/userImage"
+                android:layout_alignBottom="@+id/userImage"/>
+
+            <TextView
+                android:id="@+id/connectivityStatus"
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_alignStart="@+id/userImage"
+                android:layout_alignBottom="@+id/userImage"
+                android:layout_marginStart="37.5dp"
+                android:layout_marginBottom="1.5dp"
+                android:background="@drawable/connectivity_status_offline"
+                android:gravity="center"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:maxLines="1"
+                android:textSize="16sp"
+                tools:text="name"
+                android:textColor="?colorPrimary"/>
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:maxLines="1"
+                android:textSize="14sp"
+                tools:text="status"
+                android:textColor="?colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/unreadMessageCounter"
+                android:gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:visibility="invisible"
+                android:textSize="15sp"
+                android:background="@drawable/message_counter"
+                android:textColor="?colorBackgroundFloating"
+                android:layout_marginStart="250dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="?colorErrorContainer"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

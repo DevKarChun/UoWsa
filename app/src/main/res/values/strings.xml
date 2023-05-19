@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">UoWsa</string>
+    <string name="login">Login</string>
+    <string name="logIn">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="signIn">Sign In</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="conPassword">Confirm Password</string>
+    <string name="alreadyRegisteredLogin">Already registered, Login</string>
+    <string name="forgotPassword">Forgot My Password</string>
+    <string name="dontHaveAnAccount">Don\'t have an account ?</string>
+    <string name="alreadyHaveAnAccount">Already have an account ?</string>
+    <string name="passwordReset">Password Reset</string>
+    <string name="reset">Reset</string>
+    <string name="studentWellbeing">STUDENT WELLBEING</string>
+    <string name="discussionBoard">DISCUSSION BOARD</string>
+    <string name="friends">FRIENDS</string>
+    <string name="uowMessage">UoW MESSAGE</string>
+    <string name="studentUnion">STUDENT UNION</string>
+    <string name="clubsAndSocieties">Clubs and Societies</string>
+    <string name="aboutUS">ABOUT US</string>
+    <string name="settings">SETTINGS</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="uowsaProject">The UoWsa Project</string>
+    <string name="username">Username</string>
+    <string name="innerLayer">Inner Layer: University of Westminster Social Application (UoWsa).</string>
+    <string name="layer1">Layer 1: The direct stakeholders who are involved with the creation and development of the project.</string>
+    <string name="layer1p">The developer Christopher Wong, supervisor Markos Mentzelopoulos and selected students from the University of Westminster (testers) are the direct stakeholders of the mobile application. The developer is in full control of the research, development, gathering resources, questionnaire, and the testing control process. The supervisor analyses the entire process of the project as well as contributing ideas for the developer to have an insight on possibilities of an efficient approach or requirements which needs to be met. The role of the tester has the ability to test the project with their unbiased opinions including functionality, UX design, visual interface, security and many more. This is incredibly useful for the developer as the testers are able to evaluate the advantages, disadvantages, and essentials of the application.</string>
+    <string name="layer2">Layer 2: The continuous stakeholders who maintains the application when the project is complete.</string>
+    <string name="layer2p">Once the application is completed, the administrators take control of the in-app affairs as well as providing feedback to the developer of the application for changes and additional implementation, therefore they act upon as secondary stakeholders. Furthermore, the users are also recognised as the secondary stakeholders as they would have the most interaction with the application itself and understanding the advantages and disadvantages of the application. As the application directly involves the University of Westminster; social, ethical and legal implications will affect the institution, as the project idea is targeted for University of Westminster students. This project is also developed with university resources; therefore, the university will also be secondary stakeholders.</string>
+    <string name="layer3">Layer 3: External stakeholders</string>
+    <string name="layer3p">External stakeholders are individuals or groups outside this project who has interests or concerns in the operation and performance of this project (Strategy, 2021). Competitors are considered as external stakeholders due to the rival’s application being competitive in comparison to this project. Also, the public can choose to enrol at the University of Westminster and thereby have a designated student accreditation to use the application, consequently they will have access to the application and become a layer 2 stakeholder.</string>
+    <string name="su1">We’re the University of Westminster Students’ Union (UWSU), or SU if you\'d like to keep it short.</string>
+    <string name="su2">We\'re a membership-led organisation, that exists under the Education Act 1994. Our sole purpose is to improve your life whilst at the University of Westminster; from providing free advice and support, to bangin nights out and inclusive student groups, there\'s a little something for every Westminster student.</string>
+    <string name="su3">We represent you</string>
+    <string name="su4">Our core priority is to ensure you are heard and represented, and get the very best experience during your time at Westminster. Aside from carrying your voice across the University to make positive changes, we also want to make sure you get the most out of your Westminster experience by participating in plenty of diverse activities, build your networks and communities, become change-makers, and so much more!</string>
+    <string name="su5">We support you</string>
+    <string name="su6">We have so much on offer to make you feel valued and supported, and being part of a community is the first step towards building that support. Our sports clubs and society groups are the perfect space for you to meet like-minded people, share experiences with, and maybe even become \'forever friends\'.</string>
+    <string name="su7">We also have a team of advisors that offer free, independent, and impartial academic advice to guide and support you through any academic-related issues such as plagiarism, mitigating circumstances and lots more.</string>
+    <string name="su8">We\'re led by you</string>
+    <string name="su9">Our strategic direction and goals are led by you! – five student Officers are elected each year to lead the strategic direction of the Union, each striving to make fundamental changes to your student experience across the University and the SU.</string>
+    <string name="su10">We\'re a charity</string>
+    <string name="su11">Just like any charity, we exist to represent a specific group of people, and for us that is the students at Westminster. We are governed by a Trustee Board – these individuals hold the Union accountable by ensuring that our work is in the best interest for all students. We work within the laws and regulations governed by the Charity Commission; our board ensures that we stay within these laws and regulations.</string>
+    <string name="su12">We fight with you</string>
+    <string name="su13">We are passionate about liberation and student activism and believe that all students should have equal opportunities whilst at Westminster. it is an important stance for us and we will do everything we can to ensure that this happens and that all students are treated fairly and as equals.</string>
+    <string name="suEmail">su-info@westminster.ac.uk</string>
+    <string name="suLocation">Where to find us</string>
+    <string name="suAddress">35 Marylebone Rd, Marylebone,</string>
+    <string name="suOfficeTime">Office opening hours</string>
+    <string name="suTime">10am - 5pm | Monday - Friday</string>
+    <string name="accountProfile">ACCOUNT PROFILE</string>
+    <string name="updateProfile">UPDATE PROFILE</string>
+    <string name="myStatus">My Status</string>
+    <string name="myStatusDescription">My Status Description</string>
+    <string name="changeUsername">Edit Username</string>
+    <string name="myUsername">My Username</string>
+    <string name="createNewCustomStatus">Add Custom Status…</string>
+    <string name="heyImUsingUoWsu">Hey! I\'m using UoWsu</string>
+    <string name="upload">Upload</string>
+    <string name="tos"><u>Terms of Service</u></string>
+    <string name="tos1">End Users Agreement</string>
+    <string name="tos2">Last updated 01, February 2023</string>
+    <string name="tos3">UoWsa is licensed to You (End-User) by UoWsa for use only under the terms of this License agreement.</string>
+    <string name="tos4">By signing up the Licensed Application from Google’s software distribution platform (“Play Store”), and any update thereto (as permitted by this Licence Agreement) and You accept this Licence Agreement. Play Store is referred to this Licence Agreement as “Services”. The licensor reserves all rights not expressly granted to You. UoWsa is to be used on devices that operate with Google’s operating system (“Android”).</string>
+    <string name="tos5">The Licensor is solely responsible for providing any maintenance and support services for this Licensed Application. You can reach the Licensor at the email address listed in the Play Store Overview for this application.</string>
+    <string name="tos6">UoWsa and End-User acknowledge the services have no obligation whatsoever to furnish any maintenance and support service with respect to the licensed application.</string>
+    <string name="tos7">The licensed application may invite you to chat, contribute to, or participate in discussions with the opportunity to create, submit, post, display, transmit, perform and distribute materials to the Licensed Application. This includes but not limited to text, writings, animations, photographs, comments, suggestions or personal information or other material. Contributions may be viewable by other users of the Licensed Application. As such, any contributions transmitted by you may be treated as non-confidential and non-proprietary. When you create or make available any contributions, you thereby represent and warrant that:</string>
+    <string name="tos8">1.	The creation, distribution, transmission, public display, performance, and the accessing, downloading, or copying of your contributions do not and will not infringe the proprietary right, including but not limited to the copyright, patent, trademark, trade secret or moral rights of any third party.</string>
+    <string name="tos9">2.	You are the creator and owner of or have the necessary licences, rights, consents, releases and permissions to use and authorise us the, the Licensed application and other users of the licensed application to use your contributions in any manner contemplated by the Licensed Agreement.</string>
+    <string name="tos10">3.	You have written consent, release, and/or permission of each and every identifiable individual person in your contributions to use the name or likeness or each and every such identifiable individual application and this licence agreement.</string>
+    <string name="tos11">4.	Your contributions are not false, inaccurate, or misleading.</string>
+    <string name="tos12">5.	Your contributions are not unsolicited or unauthorised advertising, promotional materials, pyramid schemes, letter chains, spam, mass mailing, or other forms of solicitation.</string>
+    <string name="tos13">6.	Your contributions are not obscene, lewd, lascivious, filthy, violet, harassing, libellous, slanderous, or otherwise objectionable (as determined by us).</string>
+    <string name="tos14">7.	Your contributions do not ridicule, mock, disparage, intimidate, or abuse anyone.</string>
+    <string name="tos15">8.	Your contributions are not sued to harass or threaten (in the legal sense of those terms) any other person and to promote violence against a specific person or class of people.</string>
+    <string name="tos16">9.	Your contributions do not violate any applicable law, regulation, or rule.</string>
+    <string name="tos17">10.	Your contributions do not violate the privacy or publicity rights of any third party.</string>
+    <string name="tos18">11.	Your contributions do not violate any applicable law concerning child pornography, or otherwise intend to protect the health or well-being of minors.</string>
+    <string name="tos19">12.	Your contributions do not include any offense comments that are connected to race, national origin, gender, sexual preference, or physical handicap.</string>
+    <string name="tos20">13.	Your contributions do not otherwise violate, or link to material that violates any provision of this Licence agreement or any applicable law or regulation.</string>
+    <string name="tos21">Any use of the Licenced Application in violation of the foregoing violates this Licence Agreement and many result in, among other things, termination, or suspension of your rights to use the Licensed Application.</string>
+    <string name="logout">Logout</string>
+    <string name="deleteAccount">DELETE ACCOUNT</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirmUpdate">Confirm Update</string>
+    <string name="helpCenter">HELP CENTER</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="au1">UoWsa is a social messaging app for the students at the University of Westminster. It also has an aspect of forums and other activities including student union, clubs and societies, and student well-being.</string>
+    <string name="au2">UoWsa was created in 2022 with the goal of providing a platform for students to connect with each other and share information about their university experience. Since then, we are striving to become the go-to source for information about university life for Westminster students.</string>
+    <string name="au3">We are committed to providing a safe and secure environment for our users, and we take pride in our user-friendly interface and intuitive design.</string>
+    <string name="studentCommunity">COMMUNITY</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="youTube">YouTube</string>
+    <string name="linkedIn">LinkedIn</string>
+    <string name="instagram">Instagram</string>
+    <string name="get_in_touch">Get in touch!</string>
+    <string name="_02079115000">02079115000</string>
+    <string name="london_nw1_5ls_room_mg02">London NW1 5LS (Room MG02)</string>
+    <string name="phone">phone</string>
+    <string name="s1">Update your username and status here. If users would like to change their profile image, this can be done in the profile.</string>
+    <string name="s2">Need help with the app?</string>
+    <string name="s3">For any enquiries please email us.</string>
+    <string name="s4">Delete your account.</string>
+    <string name="submit">Submit</string>
+    <string name="da">Please be aware once you delete your account your account cannot be recovered</string>
+    <string name="da1">Are you sure you want to delete your account?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="TermsOfS1">TERMS OF SERVICE</string>
+    <string name="c1">Reasons to Get Involved</string>
+    <string name="c2">Looking to get more out of your university experience? There are hundreds of student groups for you to be part of at UWSU, all for free!</string>
+    <string name="c3">Sports Clubs</string>
+    <string name="c4">Whether you’re looking to compete at a high level or try something completely new, we have something for you.</string>
+    <string name="c5">Active Lifestyle</string>
+    <string name="c6">Take part in our free and open Dragons Active session this term.</string>
+    <string name="c7">Societies</string>
+    <string name="c8">Browse our range of societies and find your community here! If you don’t see anything for you, check out the societies waiting to be revived or start something new!</string>
+    <string name="c9">Committee Resources</string>
+    <string name="c10">Explore our guides and resources for committees to help with the running of your student group.</string>
+    <string name="c11">Sports Teams</string>
+    <string name="c12">Society Groups</string>
+    <string name="findOutMore">Find Out More</string>
+    <string name="sports">SPORTS</string>
+    <string name="societyGroups">SOCIETY GROUPS</string>
+    <string name="uwsuSocietyGroups">UWSU Society Group</string>
+    <string name="uwsuSports">UWSU Sports Teams</string>
+    <string name="searchForFriends">Search For Friends</string>
+    <string name="friendRequested">Friend Requested</string>
+    <string name="addFriend">Add Friend</string>
+    <string name="cancelFriendRequest">Cancel Friend Request</string>
+    <string name="ToService">Terms of Service</string>
+    <string name="sw">WHO WE ARE</string>
+    <string name="sw1">Wellbeing is a measure of how well we function day to day, how we feel about ourselves and our lives. During your time at the University, we\'re here to help you flourish and enjoy feelings of happiness, contentment and curiosity so that you\'re able to engage fully in your personal and academic journey.</string>
+    <string name="sw2">Our aim is to support you during your studies to function well in the world; experience positive relationships and have a sense of purpose. We understand that student life can be stressful and commitments outside of University can sometimes be just as demanding as your studies. Through a range of advice, guidance and support services we can help you in looking after your physical, mental and emotional health and wellbeing; they are all connected and equally important.</string>
+    <string name="sw3">HOW WE CAN HELP</string>
+    <string name="sw4">Wellbeing advice</string>
+    <string name="sw5">Navigating all of the support available to you can be overwhelming and you may be unsure of what\'s available or what you need. Your personal tutors should be your first port of call if you have a concern, are worried, unwell or in need of specialist support. They can refer you to a wellbeing adviser. </string>
+    <string name="sw6">We provide confidential information and advice on a range of topics:</string>
+    <string name="sw7">• General wellbeing</string>
+    <string name="sw8">• Homelessness</string>
+    <string name="sw9">• Healthier lifestyles</string>
+    <string name="sw10">• Accessing University and external support services including mental health, counselling and sexual health services</string>
+    <string name="sw11">IF HOME IS NOT A SAFE SPACE FOR YOU</string>
+    <string name="sw12">If you\'re at risk of abuse and violence at home, it\'s vital that you let someone know.</string>
+    <string name="sw13">There\'s a range of support available both inside and outside the University – have a look at our Coronavirus and your wellbeing section on our Wellbeing resources page for full details.</string>
+    <string name="sw14">Wellbeing Resource page</string>
+    <string name="sw15">SELF-HELP RESOURCES</string>
+    <string name="sw16">Wellbeing resources</string>
+    <string name="sw17">There are a variety of self-help resources available on a range of topics that may support you with your health and wellbeing, which are updated regularly. <b>Find out more on our Wellbeing resources page.</b></string>
+    <string name="sw18">Feeling Good app</string>
+    <string name="sw19">We are providing free access to a positive mental wellbeing app that will accompany you through your student journey. The app is designed to enhance mental clarity and focus to reach optimal performance. <b>Find out more about the Feeling Good app.</b></string>
+    <string name="sw20">Report and support</string>
+    <string name="sw21">We do not tolerate bullying, harassment or discrimination of any kind.</string>
+    <string name="sw22">Our Report and Support tool allows students to report any instances of negative or unwanted behaviour. You can report anonymously or choose to speak to an advisor for support.</string>
+    <string name="sw23"><b>Visit the Report and Support site to find out more or report an incident.</b></string>
+    <string name="sw24">Report and Support incident</string>
+    <string name="sw25">FIVE WAYS TO WELLBEING</string>
+    <string name="sw26">We hope that all students take on board the principles of the Five Ways to Wellbeing: Connect, Be Active, Take Notice, Keep Learning and Give, in order to help maintain a good level of wellbeing. </string>
+    <string name="sw27">DISABILITY LEARNING SUPPORT</string>
+    <string name="sw28">If you have a disability or condition that affects your studies, our Disability Learning Support (DLS) Team offer confidential support to help you make the most of your studies.</string>
+    <string name="sw29"><b>Find out more on the Disability Learning Support pages.</b></string>
+    <string name="acceptFriendRequest">Accept</string>
+    <string name="declineFriendRequest">Decline</string>
+    <string name="removeFriend">Remove Friend</string>
+    <string name="blockFriend">Block</string>
+    <string name="blockedUsers">Blocked Users</string>
+    <string name="numOfFriendRequest">The current number of Friend Request is:  </string>
+    <string name="message">Message…</string>
+    <string name="report">Report</string>
+    <string name="sendBtn">sendBtn</string>
+    <string name="general">General</string>
+    <string name="study">Study</string>
+    <string name="makeNewFriends">Make New Friends</string>
+    <string name="cavendishCampus">Cavendish Campus</string>
+    <string name="harrowCampus">Harrow Campus</string>
+    <string name="RegentsCampus">Regents Campus</string>
+    <string name="MaryleboneCampus">Marylebone Campus</string>
+    <string name="events">Events</string>
+    <string name="accommodation">Accommodation</string>
+    <string name="other">Other</string>
+    <string name="blocked">Blocked</string>
+    <string name="studentUnion1">Student Union</string>
+    <string name="studentWellbeing1">Student Wellbeing</string>
+    <string name="hangout">Hangout</string>
+    <string name="discussionforums">Forums</string>
+    <string name="studyForum">New Study Forum</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="date">Date :</string>
+    <string name="postedBy">Posted By : </string>
+    <string name="divider">|</string>
+    <string name="studyCourse">Study Course</string>
+    <string name="courseStudy">What course are you studying?</string>
+    <string name="campus_location">Campus Location</string>
+    <string name="what_campus_do_you_go_to">What campus do you go to?</string>
+    <string name="new_events_forum">New Events Forum</string>
+    <string name="account">Account</string>
+    <string name="help">Help</string>
+    <string name="administrator">Administrator</string>
+    <string name="privacy">Privacy</string>
+    <string name="cAdmin">Contact Admin</string>
+    <string name="FAQ">FAQ</string>
+    <string name="faq1">Frequently Asked Questions</string>
+    <string name="faq2"><b>What are the four buttons on the navigation menu?</b>
+</string>
+    <string name="faq202">(From left to right)</string>
+    <string name="faq203">•	Home
+•	Profile
+•	UoW Message
+•	Settings</string>
+    <string name="faq3"><b>What can I do on the Discussion Board?</b>
+</string>
+
+    <string name="faq66">Users can select the Hangout section including, General, Make New Friends or Student Wellbeing. Alternatively, the forum section provides the user the platform to create a new forum message where all users on the platform can contribute to the topic set by the owner. The Forums section are, Study, Events, Accommodation, Student Union, Clubs and Societies, Cavendish Campus, Harrow Campus, Regents Campus and Other.</string>
+
+    <string name="faq4"><b>What can I do on the Friends Section?</b>
+</string>
+    <string name="faq204">Users can search for friends and add other users to their friends list. Adding a selected user will start a pending process, when the other user accepts the friends request using either the search or the Friend Request button to accept friend requests.</string>
+
+    <string name="faq5"><b>How can I message my friends?</b>
+</string>
+
+    <string name="faq205">Once another user is in your friends list, selecting the UoW Message button from the home menu or the third button from the left on the navigation will lead to the direct messaging area. Select the friend you would like to message. Once you selected your friend, you can start messaging using the message box and send your message using the arrow icon or the enter key on your keyboard.</string>
+    <string name="faq6"><b>How can I contact the Student Union?</b>
+</string>
+    <string name="faq206">Select the Student Union button from the main menu and scroll down to the bottom. The information includes telephone number, email address, address and opening office hours.</string>
+    <string name="faq7"><b>What is Clubs and Societies?</b>
+</string>
+    <string name="faq207">The Clubs and Societies are groups offered by the University of Westminster Student Union. These are separated with Sports Teams and Society Groups, select the find out more for each of the buttons to find other students with similar interests as you!</string>
+
+    <string name="faq8"><b>How can the university support me?</b>
+</string>
+    <string name="faq208">From the home menu, select the Student Wellbeing button, where you can choose the supported services available to you.</string>
+
+    <string name="faq9"><b>Where can I see my account profile?</b>
+    </string>
+
+    <string name="faq101">Select the profile button from the home menu or select the second button from the left on the navigation menu.</string>
+
+    <string name="faq10"><b>How do I update my profile?</b>
+</string>
+    <string name="faq102">Select the Settings button and select update profile from the Accounts section.
+        <i>Settings > > Account > > Update Profile</i></string>
+
+    <string name="faq11"><b>How to block users?</b>
+</string>
+    <string name="faq209">Select the targeted user from the friend list in the Friends section.</string>
+
+    <string name="faq12"><b>How to unblock users?</b>
+</string>
+    <string name="faq210">Select the Settings button and select Blocked users, then select the user you would like to unblock.
+        <i>Settings > > Account > > Blocked Users</i></string>
+    <string name="faq13"><b>How do I contact the Administrators?</b>
+</string>
+    <string name="faq211">Select the Settings button and select the Administrator button, you can start chatting to one of our representatives?
+        <i>Settings > > Account > > Administrators</i></string>
+    <string name="faq14"><b>I need further assistance, where can I go?</b>
+</string>
+    <string name="faq212">Select the Contact Us button from the settings menu.
+        <i>Settings > > Help > > Contact Us</i></string>
+    <string name="faq15"><b>Where are the terms of service?</b>
+</string>
+    <string name="faq213">The terms of service can be found at app start up and in the settings after login.
+        <i>Settings > > Help > > Terms of Service</i></string>
+    <string name="faq16"><b>How do I delete my account?</b>
+</string>
+    <string name="faq214">The user can select the Delete account button from the settings menu.</string>
+
+    <string name="faq103"><b>Notice:</b> You will have to confirm your account deletion. Once the account is deleted, it can no longer be recovered.
+        <i>Settings > > Privacy > > Delete Account</i></string>
+
+    <string name="faq17"><b>How do I Logout of my account?</b>
+</string>
+    <string name="faq215">The user can logout from the top right of the home menu, alternatively the user can go to setting and scroll to the bottom under privacy and select the Logout button.
+        <i>Settings > > Privacy > > Logout</i></string>
+
+    <string name="newForum">New Forum</string>
+    <string name="newOtherForum">New Other Forum</string>
+</resources>

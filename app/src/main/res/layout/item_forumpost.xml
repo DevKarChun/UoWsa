@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+
+    android:paddingBottom="5dp"
+    android:id="@+id/layoutUser"
+    android:background="?colorSecondary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/forumLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="?colorSecondaryVariant">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/merriweather_black"
+                android:maxLines="1"
+                android:textSize="16sp"
+                tools:text="Title"
+                android:textColor="?colorBackgroundFloating"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/datePlaceholder"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/inter_semibold"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    tools:text="Date: "
+                    android:textColor="?colorBackgroundFloating"/>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_gravity="start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="2dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    tools:text="Date"
+                    android:textColor="?colorBackgroundFloating"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/userPlaceholder"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/inter_semibold"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    tools:text="Posted by: "
+                    android:textColor="?colorBackgroundFloating"/>
+
+                <TextView
+                    android:id="@+id/user"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="2dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    tools:text="Posted"
+                    android:textColor="?colorBackgroundFloating"/>
+
+                <ImageButton
+                    android:id="@+id/bin"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="200dp"
+                    android:layout_gravity="end"
+                    android:visibility="invisible"
+                    android:clickable="false"
+                    android:src="@drawable/ic_deletebin"
+                    android:backgroundTint="?colorSecondaryVariant"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

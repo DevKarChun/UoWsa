@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorSecondary">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="90dp">
+
+            <TextView
+                android:id="@+id/updateProfileTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/titlebar"
+                android:paddingStart="32dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/updateProfile"
+                android:fontFamily="@font/merriweather_black"
+                android:textColor="?colorAccent"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry" />
+
+            <ImageView
+                android:id="@+id/ic_uowsalogo"
+                android:layout_width="160dp"
+                android:layout_height="80dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/updateProfileTitle"
+                app:srcCompat="@drawable/ic_uowsalogo" />
+
+            <TextView
+                android:id="@+id/myUsernameTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/myUsername"
+                android:textColor="?colorPrimary"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_uowsalogo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutUserName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:theme="@style/MyTextInputLayout_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="2dp"
+                android:hint="@string/changeUsername"
+                app:counterEnabled="true"
+                app:counterMaxLength="12"
+                app:helperTextTextColor="?colorError"
+                app:endIconMode="clear_text"
+                app:layout_constraintBaseline_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myUsernameTitle">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="?colorPrimary"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/myStatusTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/myStatus"
+                android:textColor="?colorPrimary"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutUserName" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutStatusDescription"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:theme="@style/MyTextInputLayout_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="2dp"
+                android:hint="@string/createNewCustomStatus"
+                app:counterEnabled="true"
+                app:counterMaxLength="50"
+                app:helperTextTextColor="?colorError"
+                app:endIconMode="clear_text"
+                app:layout_constraintBaseline_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myStatusTitle">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/statusDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="?colorPrimary"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/myCampusLocationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/campus_location"
+                android:textColor="?colorPrimary"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutStatusDescription" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutCampusLocation"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:theme="@style/MyTextInputLayout_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="2dp"
+                android:hint="@string/what_campus_do_you_go_to"
+                app:counterEnabled="true"
+                app:counterMaxLength="20"
+                app:helperTextTextColor="?colorError"
+                app:endIconMode="clear_text"
+                app:layout_constraintBaseline_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myCampusLocationTitle">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/campusLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="?colorPrimary"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/myStudyCourseTitleTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/studyCourse"
+                android:textColor="?colorPrimary"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutCampusLocation" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutStudyCourseDescription"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:theme="@style/MyTextInputLayout_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="2dp"
+                android:hint="@string/courseStudy"
+                app:counterEnabled="true"
+                app:counterMaxLength="30"
+                app:helperTextTextColor="?colorError"
+                app:endIconMode="clear_text"
+                app:layout_constraintBaseline_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/myStudyCourseTitleTitle">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/studyCourse"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="?colorPrimary"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginBottom="90dp"
+                android:backgroundTint="?colorSecondaryVariant"
+                android:text="@string/confirmUpdate"
+                app:cornerRadius="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutStudyCourseDescription" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bottom_menu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/bottomMenuShape"
+        android:layout_width="421dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/navshape"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageButton
+        android:id="@+id/navHomeBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_home"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/home"
+        app:tint="?colorAccent" />
+
+    <ImageButton
+        android:id="@+id/navProfileBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_profile"
+        android:layout_toEndOf="@+id/navHomeBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/profile"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navUowMessage"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_uow_message_icon1"
+        android:layout_toEndOf="@+id/navProfileBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/uowMessage"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navSettings"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_settings"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/settings"
+        app:tint="?colorAccent"/>
+
+</RelativeLayout>

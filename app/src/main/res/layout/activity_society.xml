@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorOnBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="90dp">
+
+
+            <TextView
+                android:id="@+id/societyTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/titlebar"
+                android:paddingStart="32dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/societyGroups"
+                android:fontFamily="@font/merriweather_black"
+                android:textColor="?colorAccent"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry" />
+
+            <ImageView
+                android:id="@+id/societyGroupImage"
+                android:layout_width="412dp"
+                android:layout_height="185dp"
+                android:scaleType="fitStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/societyTitle"
+                app:srcCompat="@drawable/ic_society" />
+
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="African and Caribbean Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/societyGroupImage" />
+
+            <TextView
+                android:id="@+id/textView157"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?colorPrimary"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:text="ACS is a student run organisation providing a wide range of opportunities for its members and the wider community. Our aim is to educate, empower, entertain and engage our members. Here at WESTMINSTER ACS, we want to make it our mission to ensure our members enjoy their experience to the fullest. We want to ensure that everyone receives an equally beneficial experience outside of the academic classroom and basks in the enjoyable familial atmosphere the ACS will provide you. Our society is open to EVERYONE! So feel FREE to come along to all our events! They are almost always FREE for members! "
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView156" />
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Ahlulbayt society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView157" />
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text='Our student group attempts to call to the path of Prophet Muhammed (s) through his family, in order to perfect our morals, mannerisms and theology, so we may achieve spiritual insight and strive to be model citizens with everybody we interact with. You should join our student group as it will give an alternative outlook to the world for outsiders, as we distinguish ourselves based on building a community, calling to truth, and being a voice for justice, so whoever seeks those - which is part of ones innate disposition to seek - should join our society. We plan to meet regularly on Tuesday and Thursday in the Marylebone Campus. The best thing about our student group is that we welcome anybody to come, as we treat everybody the same, for the successor of Prophet Muhammed (s), Imam Ali stated: "man is either your brother in religion or equal in humanity."'
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView158" />
+
+            <TextView
+                android:id="@+id/textView160"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Albanian Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView159" />
+
+            <TextView
+                android:id="@+id/textView161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Our Society has a friendly focus on bringing students of the Albanian Heritage and those interested in the Albanian culture closer together! We want to appreciate our cultural heritage and create a safe space where we can share our Albanian-community-centred issues. We aim to share and raise awareness of our language, culture, our valle, food, etc. As part of the Albanian Society, you will be part of our regular meet-ups, initiatives, and collaborations with other societies in the University of Westminster and other Albanian societies from other universities such as football matches and debating tournaments. You will also be invited to our cultural parties like Independence Day parties or others like New Year or Halloween. In all our gatherings we try to include Albanian food and music, but we are not ALL about partying and having fun. The Albanian Society also plans Talks and inspirational sessions with successful professionals, conferences, and forums that focus on the academic and career development of the students involved. Following a rich timetable of online and in-person events, we have regular meet-ups which happen every two weeks in different locations. When joining the society you will be given a detailed plan on when and where our activities and events will take place. Our regular fortnightly meetings are on Thursdays from 6PM - 9PM There is something for everyone! There is finally a society that celebrates our cultural heritage, where we can come together to appreciate who we are and where we come from. Other than that, it is great to have a space where we share awareness and knowledge on our culture with others and each other. We learn and have fun together, there's nothing better than a group of students of Albanian heritage coming together to dance, sing and grow together."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView160" />
+
+            <TextView
+                android:id="@+id/textView162"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:text="Anime Society"
+                android:textColor="?colorPrimary"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView161" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Welcome to UoW Anime society! We are a community that shares interests in anime, manga, and overall anything regarding Japanese culture at UoW, and we would love you to join us! We are an Anime Society from all backgrounds and personalities. We will be holding multiple different activities within the campus. But more than anything else, simply come along and have fun meeting each other. It is okay if you have not consumed any form of Japanese media, because everyone is welcomed here. You should definitely try to come to our society and see for yourself if you would like it or not. The society plans to hold varied social events, between our regular anime viewings. These social events range from karaoke nights to quiz competitions, debates and any other events as per the feasible ideas and the discretion of the society committee. People should join our group to simply enjoy their time at university and meet new people. Creating friendships can be quite difficult sometimes, but our society group will make it easier. Most people in this community are really kindhearted and talkative when it comes to their interest. If one does not know anything about our group and what we do, anyone is always happy to explain. Everyone is welcomed, regardless of their knowledge on Japanese culture, Religion, race, sexuality, gender and etc. The most important thing is to have fun!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView162" />
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Art Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView163" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Welcome to The Art Society! An artistic and social environment where painting sessions will be hosted in order for you to A. Socialise and paint, B. Paint by yourself to de-stress from University or, C. A complete combination of both! You don't have to have a background in painting or be doing a course related to it. Future plans involve events such as Sip and Paint evenings, Art Auctions, Society collaborations and Live drawing sessions around London and in museums! Every other Monday: Cavendish Campus at 16:00-19:00, Every other Wednesday: Marylebone Campus at 16:00-19:00, Rooms are to be disclosed closer to the time on Instagram and Whatsapp! Check out our Instagram @uowartsociety for updates on events, our members' WhatsApp chat is linked in our bio! email: art.soc@su.westminster.ac.uk"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView164" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Azerbaijan Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView165" />
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="There will be plenty of events throughout the year celebrating Azerbaijanian food, culture, and history such as National Flag Day, Indepence day, Novruz Holiday and some international events. Some events have been adapted due to COVID-19, but the spirit of Azerbaijan Society remains. Joining our society is the way to enhance information about Azerbaijan's history, culture, as well as, tradition and creating friendships with other national based societies. Our aim is to never let our members get bored. They are able to join every Azerbaijani event (especially with Embassy events) as we are always informed on social media. As one of the most unique cultures - Westminster Azerbaijan society aims to provide opportunities for everyone to appoint with and explore Azerbaijan culture. Online- we will be trying to have some events at least once a month. Embassy- As we have a connection with them, they allow us to do historical events or gather. Azerbaijan House in London The best thing about Westminster Azerbaijan Society is showing maximum support to our members academically and socially. Westminster Azerbaijan society is an opportunity for all Azeri students to engage. We are also very glad for all students to share in culture, traditions, and help to learn more. We have awards of Azerbaijan society that given by Embassy of Azerbaijan. We have team membership experience that given by Azerbaijan Diaspora."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView166" />
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Baking Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView167" />
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:text="Baking society is a safe space for all students, be it baking enthusiasts or baking newbies! Whilst building our love of baking together, we also encourage one another through our love of baking and food! Our society Society is not only about learning but tasting too :). As well as baking, we eat and share home recipes with one another. We have an environment that encourages everyone to bake, no matter their skill level! Our society will be holding events on every campus, but events will predominately be held at Cavendish, Regents and Marylebone campus and will vary week to week. Besides the homemade bakes that are made by students, the small baking community that we have built within the university and the passion to learn and improve our skills are just a few of the best things our society offers. Alongside these great qualities, we also allow people a chance to connect and socialise with fellow bakers :)"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView168" />
+
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Bar Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView169" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Welcome to the University of Westminster Bar Society."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView170" />
+
+            <TextView
+                android:id="@+id/textView172"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The aims and objectives of the student group will be:"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView171" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Provide events and networking opportunities for students aspiring to go to the legal Bar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView172" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Ensure students from all backgrounds are encouraged and able to engage in legal events and environments"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView173" />
+
+            <TextView
+                android:id="@+id/textView175"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Train and empower students from all schools in practical legal skills, with the assistance of academics and legal professionals"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView174" />
+
+            <TextView
+                android:id="@+id/textView176"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?colorPrimary"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:text="Create a culture of support and encouragement where students can feel safe to make a mistake, and learn and develop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView175" />
+
+
+            <TextView
+                android:id="@+id/textView177"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Believer’s Loveworld Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView176" />
+
+            <TextView
+                android:id="@+id/textView178"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text='As Believers Loveworld Westminster, we believe in building a happier world with the love of God and impacting our world with the investment God has made in us. We meet for weekly themed Bible Study and host a wide range of events which target all aspects of student life including entertainment, lifestyle, academics and careers meaning that there is something for everyone. Our structure ensures that all students will feel welcome in an enriching and inspiring environment. We structure ourselves as a church on campus and are committed to the growth and development of each member, going through new topics to strategically and uniquely. We believe in creating a ‘more than society feel’ but rather a family and a care system. Our major events which is especially open to all students on campus, are fun and insightful. They range from game nights to debate nights, poetry nights and more (oh, and we also have events during the day). We welcome all questions and persons, nothing will be avoided and no though is invalid, we want to make sure you get the most out of every meeting. We meet in person every Thursday at 6pm on the Harrow Campus for Bible Study, then Sunday Services also take place at the Harrow Campus at 12pm. More Bible Study time slots to be confirmed. The best thing about our student group is the refreshing Bible Study topics we discuss such as; Creation by Vision, the Holy Spirit in You, Faith over Fear, The Change You Want to See etc It also offers a beautiful opportunity to meet like-minded people that will encourage you in your Christian walk of faith and can develop into life-long friendships. Our monthly programmes are also major successes, a few flagship programs include: Sex Education: Shining the Light of God’s Word on Sex. Debate Night: Also known as ""Grill-A_Christian"" Night, we answer all those awkward and typically avoided questions. Nothing is off the table. Day of Worship: A display of different art forms of praise and worship across different genres, presented in this program making it a fun and memorable occasion for students in attendance. Day of Service: Seek out to meet a need in our immediate environment, whether it is giving winter clothing items to the homeless, sweeping up, picking up rubbish, anything that adds value to our environment or university." BLW Westminster is just one of the many of hundreds of other BLW campus ministries in the world. We are proud to be part of a close knit community and have opportunities to interact with other BLWs in other universities and in local areas.'
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView177" />
+
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Biomedical science Society (BMS)"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView178" />
+
+            <TextView
+                android:id="@+id/textView180"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:textColor="?colorPrimary"
+                android:paddingEnd="20dp"
+                android:text="We provide both entertainment and career guidance for students. We host various events including entertainment nights and we invite guest academics for students to learn from. We create a good science community. Thinking of joining? You will: Receive knowledge and guidance in careers available after finishing Biomedical Science degree. Meet like minded people. Network. Build relationship with your peers. Socialise and have fun. The 3 committee members normally meet online and occasionally on-site for any training required. We have a meeting weekly to discuss any training or events. The days of meeting vary week to week based on the schedule of the committee members. The Biomedical Science field is extremely diverse. There are many careers available for individuals in the science field, however, many students are not aware of a lot of careers which are out there. In this society we aim to help and educate individuals learn about the different paths they are able to peruse."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView179" />
+
+            <TextView
+                android:id="@+id/textView181"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="BreatheUni"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView180" />
+
+            <TextView
+                android:id="@+id/textView182"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="BreatheUni is a safe space for students. Run by students, for students, it’s the perfect starting point for anyone looking for support and learning about mental health, personal development and equality, diversity and inclusion. ? BreatheUni provides a non-judgemental environment in which to discuss, share and learn with peers who are Mental Health First Aiders and are well trained to signpost relevant information and resources. We plan to meet on a weekly basis, according to the feedback of our members timetables we will design our time table around them. It will be delivered via a blend of regular online and campus-based sessions, events and courses. ? The BreatheUni programme seeks to improve knowledge, understand boundaries and foster skills development. Through evidence-based training and development opportunities, participants and Champions can strengthen the much-needed support structures."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView181" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Bubble Tea Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView182" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We as a Bubble Tea society would love to share our love and knowledge of Bubble Tea. This will allow individuals to try Bubble tea and tea in general from different locations and find a drink and also a life-long friend from attending our events and what locations have the best Bubble Tea place. Not only this but it will allow everyone to relieve stress throughout their University experience to be able to relax during these sessions. Our society is about learning different cultures and trying new things whilst helping their mental health by creating a society group for like-minded individuals. This will give them a chance to meet new people through the same interest and love of Bubble Tea. We will run events every week – once/twice each week and they will mostly be off campus and include everyone in it. Some events will of course be on campus such as meet and greets and the game events. During exam seasons we will not be doing many events unless if the committee team are able to host one due to their availabilities. This is because they and others will be concentrating on their studies and exams. Aside from creating a bubble tea community within Westminster University we will allow other students from other universities to get involved in our society activities too. This society will let students gain more knowledge about Bubble tea, thus gaining a new hobby and develop their skills in networking and have many chances to help at events which will be a way for them to gain work experience! The current committee team members are all creative and extraordinary in their own ways and their highlights will be mentioned in our first few events when we introduce our society."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView183" />
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Bulgarian Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView184" />
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="For many people, moving to a foreign country is accompanied by discomfort, stress and, of course, nostalgia. The aim of the society will be to help students from Bulgaria, newcomers or graduates, to have the opportunity to be in a comfortable environment, among people connected to their own culture. Some of the activities that will be organized in the society will be closely related to Bulgarian culture. Students from the society will have the opportunity to participate in the celebration of traditional Bulgarian holidays, they will be able to attend evenings where Bulgarian folk dances are performed. Culinary competitions will also be organised in which students will be able to present festive dishes from Bulgarian cuisine, and an elected committee will judge and award the participants. We will also have open days where students from different cultures will have the opportunity to attend some of the gatherings and events of the society and will also be able to take part in seminars where they can present their culture and introduce Bulgarian students to traditional customs associated with it. On an individual basis, we will try to help each member of the society with peer support groups and a mentoring program where students new to the country will have the opportunity to ask the more experienced ones for advice, emotional support and motivation. We believe that the Bulgarian Society could contribute a lot to both the students and the university. By building the cultural society we will be able to provide an environment in which the society, and the people in it, will offer mutual support in difficult times for students."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView185" />
+
+            <TextView
+                android:id="@+id/textView187"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Chess Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView186" />
+
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Lessons, tournaments, friendly games, and live events related to the game of chess will only be some of the many engaging options offered to participants. The Society aims to gather students to play chess games, and at the same time socialize, create a network that could result useful outside the university environment in order to create business opportunities. All activities will take place online and in presence, on and off-campus. Chess is a dynamic and fun game that can be played anywhere. It is challenging and allows students to develop perspective and problem-solving skills, improve memory, deepen focus, elevate creativity, boost planning skills, and increase self-awareness."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView187" />
+
+            <TextView
+                android:id="@+id/textView189"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Christian Revival Fellowship"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView188" />
+
+            <TextView
+                android:id="@+id/textView190"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The mission of this fellowship is to revive Christian values and practices among Christians on campus and beyond, as well as reach out to lost souls to become born again and serve God in truth and in spirit. Secularism has almost taken over UK and the western world and God expects us to pray and evangelize with all commitment to win back backsliding Christians as well as make new converts. We meet on: Ist Monday of the month at Little Titchfield auditorium at 5pm-6pm 2nd Wednesday of the Month at Marylebone Campus (Prayer Room), 4-5pm 3rd Thursday of the Month at Cavendish Campus (Prayer Room), 4-5pm We ensure that unity and agape love exists among us."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView189" />
+
+            <TextView
+                android:id="@+id/textView191"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Conservative Association"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView190" />
+
+            <TextView
+                android:id="@+id/textView192"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Our society brings together students who support the Conservative Party and want to discuss politics, economics and social issues. We hold many events and activities throughout the year, such as supporting election campaigns, meeting MPs and hosting large-scale events with other Conservative societies in universities across the country."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView191" />
+
+            <TextView
+                android:id="@+id/textView193"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Corporate Law Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView192" />
+
+            <TextView
+                android:id="@+id/textView194"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="What do we do? 1. We strive to connect our members with legal professionals and firm recruiters in order to strengthen their candidacy to law firms through the advice and resources from these networks. 2. We host collaborative social events alongside a variety of external partners to organise a range of informal gatherings, outdoor functions and black tie events. 3. We aim to better the development of our members skills. We provide a range of events/activities including virtual seminars, QA panels, multinational networking opportunities and much more. Why YOU should join: 1. Our society provides specifically catered resources, events and networking opportunities to help expand your knowledge and understanding of the corporate law world as well as supporting our members with their studies and approach into the professional world. 2. We strive to aid students with their career path planning, interview preparation, application help, firm research on top of guidance with their online presence and CV,s for all students at any stage. 3. Joining our society demonstrates to future employers and professionals your proactivity, initiative and commitment to the legal sector and looks very good on a CV. 4.The Corporate Law Society welcomes all law students from all interests and experience levels to join and take advantage of our exclusive events and resources all while obtaining the opportunity to retain long term legal connections with fellow aspiring lawyers, professionals and potential employers With consideration to our current conditions in the pandemic our committee meet regularly online to discuss current matters regarding the society. Our members are updated with upcoming events and opportunities online as well as welcomed to view our social medias which will be regularly updated. The best things about our society: 1. Our society is a diverse community of law students always ready to help each other out in all areas of law and study. 2. There are so many positions and opportunities for you to be part of our committee and enhance your CV. 3. We have regular advice and external speakers to guide our member on a range of areas. 4. We always reach out to our members for their input in how we can provide the best for them and what they want to see from us. It is crucial that we listen to our members needs and wants and arrange the most valuable resources for them. 5. Whenever an opportunity arises for us to celebrate our member you will see it featured on our social medias! We are so proud of all our members achievements, big or small."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView193" />
+
+            <TextView
+                android:id="@+id/textView195"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Crochet Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView194" />
+
+            <TextView
+                android:id="@+id/textView196"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Members can expect weekly sessions teaching the basics and monthly workshops dependent on skill level from beginner to moderate and advanced- we have something for everyone! Currently our weekly beginner sessions will be taking place on Friday and our monthly workshops will be running on Tuesdays, with a different project every month. These session dates and times are subject to change over the course of the year so be sure to stay up to date on Instagram and WhatsApp. In addition to our regular sessions there will be some exciting collabs and events with other societies. We'll keep everyone in the loop and share members crochet creations on our Instagram feed. This year we also plan to have monthly giveaways so everyone can enjoy crochet, keep an eye on the instagram feed for your chance to win! The weekly beginner project involves making 15x15cm squares using different stitches that will be sewn together to make a society quilt. From this initial project you’ll learn how to make a slip stitch, getting the correct yarn tension, how to hold the working yarn and the hook and also a variety of integral stitches. Workshops will range in topic from making keyrings, earrings to items of clothing such as hats. Some sessions may be carried out online via the Discord platform, but will mainly be at the Cavendish campus, with snacks and drinks available during the sessions. Members can get involved by sending in their crochet creations to the committee team to be featured on the UoW Crochet Instagram. Anyone looking to share pictures of what they’ve made to the group chats are also welcome to! We are also always open to suggestions and inspiration for our next event and value our members' feedback."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView195" />
+
+            <TextView
+                android:id="@+id/textView197"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Cryptocurrency Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView196" />
+
+            <TextView
+                android:id="@+id/textView198"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The Westminster Commercial Awareness Society exists for the purpose of enhancing members' understanding and awareness of current affairs and consequential issues and their impact on the legal and commercial sectors. We offer members the opportunity to attend our fortnightly informal meetings at which we direct discussions concerning what we have identified to be the current and relevant commercial issues at the time of the meeting. We seek to invite guest speakers to come and talk to our members about how these respective issues have affected businesses in both the legal market and other industries. We also aim to host commercial awareness workshops throughout the academic year. We host commercial awareness workshop and practice using case studies to enhance commercial acumen. We host talks with professionals to enhance members' understanding of a particular industry/practice area. Another purpose of the Westminster Commercial Awareness Society is to provide a platform for students from different courses to network and learn from each other’s unique perspective on the commercial world. We provide fortnightly commercial awareness briefs to our members. Host social events for students from different degrees to network and exchange ideas. In short, we aim to become a link between the Law school and the business school for Westminster students. Events are advertised through social media. We are a new society with a team of highly motivated individuals."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView197" />
+
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Enactus"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView198" />
+
+            <TextView
+                android:id="@+id/textView200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Have you ever wanted to make a positive impact on the world, develop your entrepreneurial skills by participating in a start-up, grow your personal and professional network or enhance your skills by gaining key practical experience in a specialty area of your interests? If the answer is yes to any of these, Enactus is the society for you. Enactus Westminster is a society of thoughtful, committed and highly motivated students developing themselves in the roles of business leaders, establishing their entrepreneurial skills to drive positive social change, emphasising causing minimal environmental damage. Our team's principal focus is the deployment of business innovations to positively impact people, the planet and prosperity through the development of projects. Our main goal is to create a well-balanced, sustainable, equal, clean and prosperous world. Enactus UK is a worldwide organisation. Around 72000 student members from 35 countries across 1800 universities impact more than 1.5 million people annually. 550 big corporations,  such as Asda, Amazon, Unilever, HSBC etc., work as partners supporting each member's perspective and ideas. Even when you complete a path with Enactus, you will mostly be respected and recognised by the companies, as you always remain a part of this community. Partners' support gives a kick start to students' careers by offering internships and graduate schemes which can turn them into full-time graduate prospects. In Enactus Westminster, students have an excellent opportunity to become business professionals early in their career path. We offer online events and workshops supported by partners, like live events with top business coaches and specialists providing training and activities. Students can expand their network with like-minded students from other universities sharing the same values. As a university society, we offer various social activities for Westminster Enactus students. It will be an excellent opportunity to build your university network and meet new people. Our mission is to prepare the students to become entrepreneurial leaders who use innovation and business principles to improve the world. We emphasise experiential learning, which catalyses our members' personal growth and professional development through creating real-world projects that enhance our community and the world. As a member of the Enactus Westminster society, you could expect to have the opportunity to participate in projects, develop a range of essential qualities and have a safe space where you can be yourself. We also offer opportunities for members that actively participate in the society. These include roles in areas such as Marketing, Finance, Human Resources, Events and Project Leadership, etc. Training opportunities will also be available for the roles in each of the respective areas mentioned. To get the most out of these opportunities, each member should possess qualities of excellent communication, time management and creativity. Everyone will be able to discover themselves from a new perspective throughout the path with Enactus. You could expect in-person and virtual workshops and training events from our partners which offer graduate schemes, mid-project competitions and mentorship programs by top companies associated with Enactus UK. All the society meetings will be held on the Marylebone campus. Weekly meetings time and day of the week will be scheduled based on the majority's availability. Join Enactus Westminster to start changing the world together through improving and expressing yourself!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView199" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Filipino Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView200" />
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Mabuhay! We are a scoiety that celebrates and spreds FIlipino culture through socials. From karaoke nights to eating good food, we'll find any activity to come together as a community and spread our energy! Join our society to get away from stressful uni days and be in a safe environemnt to have fun."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView201" />
+
+            <TextView
+                android:id="@+id/textView203"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Film Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView202" />
+
+            <TextView
+                android:id="@+id/textView204"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The Film Society offers an exciting range of film-related activities open to all levels of experience, as well as opportunities for members to meet others who share a passion for film and TV. Whichever aspect of film you're interested in, from watching, making or discussing films, you will be able to develop your interest and skills as well as meet other like-minded people at the Westminster Film Society. Our main aim is to create a community for individuals who love and enjoy the art of watching, making or discussing films. If you have an interest in films or have never even watched a film... You should join the society, we want to enrich and open your minds to the world of film. Do you wanna sound like a film snob? If yes, join the club because we won't JUST be showing films from Hitchcock, François Truffaut or anyone else from high brow cinema. BUT a range of talent spanning the world, different languages and eras even to modern day films. Maybe even Shrek? Who knows! Come along and find out, as we explore the wonders of film."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView203" />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Food and Eat Out Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView204" />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We are a friendly group of students from the Human Nutrition course who would like to create/organise simple events where people could meet up and socialise over a nice meal. London offers an immense variety of exotic restaurants and  secret street food markets and us UoW Students, we are one of the most ethnically diverse University in the UK, by combining these two things together we strongly believe that we could discover and  understand each other's cultures through what it has proven to be the most ancient and effective “tool” of human history, FOOD. We aim to be a group where a close to zero level of commitment will be required (exceptions made for restaurant reservations), so all you will need to do will be to show up to the events and enjoy your time there! We extremely value inclusivity, mutual respect and patience, Dietary restrictions based on Religious Beliefs,Ethical Reasons and Allergies will always be taken into account when the event organisation will be discussed and appropriate alternatives will be provided when possible. London is an astonishing city, a lot of delicious cuisines, interesting people and different cultures from all over the world are waiting for you to be discovered. Whenever you feel ready join our whatsapp group and/or  follow our  instagram page to not miss any future event !!!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView205" />
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Friends of Palestine"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView206" />
+
+            <TextView
+                android:id="@+id/textView208"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We work with Palestinian societies and organisations across the UK to take action against systems of apartheid and oppression. We want to take a new approach to activism and organise a variety of events such as socials, workshops and talks to engage students. FOP encourages all members to try out new things, get involved and learn new skills. Not only will you get to know other members, but also have the opportunity to organise for a good cause. We welcome and support projects our members want to organise, such as talk, discussion rounds etc. Weekly meeting on Mondays 5-7 pm in the Westminster Forum (Wells Street WS500) We acknowledge that getting into activism might seem intimidating but we prioritise the passion of students over their knowledge! We learn as we go and hope to inspire others."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView207" />
+
+            <TextView
+                android:id="@+id/textView209"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Games Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView208" />
+
+            <TextView
+                android:id="@+id/textView210"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We are individuals that share a common interest in gaming, we host games related events and we are a great place to find someone else to play with. Although gaming is our main common interest we also share a love of anime, films, food and many others. The Game and Creative society aims to promote playing, learning, making games of all kinds. From table top, to consoles, all the way to PC. If you are interested in playing games, events like: EGX and comicon, then this is the society for you. We invite all kinds of people on our active discord server to share their love of games and socialise in the virtual world. We are proactive on community feedback as this helps us to create the best society experience for you :D We mostly meet on Thursdays in person but we are active on discord daily. We are an active community and a safe space for all."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView209" />
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Henna Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView210" />
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Our Henna Society invites all students who enjoy henna, whether it be doing henna or having it done! It’s also a fun way to learn a new skill! :) Our Society is not only about learning but sharing our knowledge of Henna too. We have an environment that encourages everyone to create henna designs, no matter what their skill level is. All henna used is 100% natural! Our society will be holding events usually on the main central campuses, including Cavendish, Regents and Marylebone campuses. The days we will host events will be different each week to accommodate our members timetable! :) Our society offers a chance to socialise with other students and allows students to have a chance to learn the basics of henna, gradually becoming a pro throughout the journey! Our current committee team members are all artistic, harbouring their own styles of henna. The President and Founder of the Henna Society is a professional henna artist who has her own business and will be more than happy to share her ups and downs throughout the industry as well as her knowledge of henna."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView211" />
+
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="History Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView212" />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We are a society interested in learning about our pasts and the stories which explain how we got to where we are now! We offer excursions to different museums across London and socials so we members can make friends and get to know each other better! If you enjoy history or want to learn more about us, feel free to join! ????"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView213" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Indonesian Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView214" />
+
+            <TextView
+                android:id="@+id/textView216"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Indonesian Society aims to unite all the Indonesian students at the University of Westminster from different campuses and different levels. As we knew how hard it is to move abroad, we also provide guidance to new students who just came from Indonesia and give insights to future students on why they should choose UOW. Moving abroad can be scary and lonely, hence why we encourage you to join our Indosoc! We will get to know and support each other through monthly events.We meet on campus or outside, on special days or holidays."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView215" />
+
+            <TextView
+                android:id="@+id/textView217"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Islamic Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView216" />
+
+            <TextView
+                android:id="@+id/textView218"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="As one of the largest societies at the University of Westminster, we welcome absolutely EVERYONE to join us! Alhamdulillah we hold sensational socials, wild activities and most importantly, Islamic events delivered by some of your favourite speakers! Our very aim is to bring everyone closer to Allah by learning about the religion, you will surely leave every event with your soul nourished! If you're worried about making friends or fitting in, then this is the society for you as we ensure everyone is encompassed by the UNMATCHED sister/brotherhood! From playing archery and embarking on hiking trips, to attending heartfelt Islamic lectures and fundraising together, there is always something for everyone! Anyone and everyone is welcome to our Islamic speaker events, sisters circles, brothers circles, games nights, quiz nights, picnics, football tournaments, sports days, hiking trips, art socials, archery activities, horse riding trips, charity auctions and many more! Struggling to find a place of belonging? Struggling to improve your faith? Finding it difficult to make friends? Starting first year and don't know where the fun starts or in your last year and regret not having enough fun? There's hundreds of people just like you who benefit from the Islamic Society, so what are you waiting for? Useful links: Email: islamic.soc@su.westminster.ac.uk Instagram: uwisoc Instagram sisters: uwisocsisters Twitter: UWIsocOfficial WhatsApp groups: email or direct message us on Instagram!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView217" />
+
+            <TextView
+                android:id="@+id/textView219"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Jewish Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView218" />
+
+            <TextView
+                android:id="@+id/textView220"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We’re the main representative body and social hub for Jewish students on campus, aiming to bring people from our community together. We run events and celebrate of Jewish festivals throughout the whole year, helping you get to know the community on campus and find your place. We're open to and inclusive of any self-identifying Jewish students, religious and secular alike. All Jewish students are invited to sign up for the Union of Jewish Students at www.ujs.org.uk/join to be a part of our national union!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView219" />
+
+            <TextView
+                android:id="@+id/textView221"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Karate"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView220" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Goju Karate is distinct type of the modern-day sport that most people know as ‘Karate’. In fact, we are the forerunner to modern karate and focus on genuine combat effectiveness in a street situation. Most martial arts contain an element of self-defence, but our primary goal is to teach you how to defend yourself in an attack situation. The training which you will receive will therefore cover all possible scenarios from fighting on the ground, to defending yourself against armed assailants, to facing multiple attackers. Besides our regular twice-weekly training at Regent Street Campus, our cornerstone events are Summer School in June – four days away training in the woods near Bristol, Winter Camp in October – a weekend training in Epping Forest - and annual tournaments in April and November every year. We have been training at the University of Westminster under the same instructor, since 1990 – the oldest sports club in the university!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView221" />
+
+            <TextView
+                android:id="@+id/textView223"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Law Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView222" />
+
+            <TextView
+                android:id="@+id/textView224"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Are you a law student here at Westminster? Or do you have a keen interest in learning more about the legal system? Then join our society, where we organise workshops, national and international competitions, bootcamps and webinars to help develop our members’ practical legal skills. We partner with the best career development organisations to provide useful advice and resources and connect our members with legal professionals. This helps our members become stronger candidates for law forms when they graduate. We organise social events within the law school and with other universities to provide memorable experiences as well as build our members’ networks to help them build a successful career."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView223" />
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Lebanese Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView224" />
+
+            <TextView
+                android:id="@+id/textView226"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The Lebanese Society will allow an opportunity for the Lebanese culture to be represented and celebrated within the University of Westminster. We believe that there is a key purpose to our society because we want to ensure that the heritage has a space to be appreciated. As well as this, it will allow both Lebanese students to connect with one another and non-Lebanese students to join the society and learn more about the country and culture. Activities will include: meet and greet night (to allow members to meet and enjoy traditional Lebanese food, drinks, music, dancing and games), Lebanese movie nights, Arabic writing/calligraphy session, Lebanese breakfast, charity dinners, events for religious holidays, such as Christmas and Eid. We will also be fundraising for charities in Lebanon. In terms of socials, so far we have Instagram and TikTok. People can get involved by joining our WhatsApp group chat. They can receive the link by following our Instagram account and messaging us on there. Once they provide their student ID number, then we will provide them with the link to our group chat. This will be done to ensure that only University of Westminster students can enter our group chat. In addition to this, once our society is posted on the student union page, we will promote this signing up process (of signing up on the website), on posters around all campuses. This will ensure that people wanting to become members can be notified about our society and be informed that they can join by signing up on the SU website."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView225" />
+
+            <TextView
+                android:id="@+id/textView227"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Medical Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView226" />
+
+            <TextView
+                android:id="@+id/textView228"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Thought about pursuing Medicine or other allied healthcare professions like Dentistry, Nursing or Physicians Associate? Then welcome to MedSoc! We look forward to helping you pursue your career through supporting with: Application processes Personal statement advice Admissions testing (UCAT, BMAT, GAMSAT) Interview preparation Topic discussions Guest speakers Meet likeminded individuals and work towards your goal together! Follow us on Instagram to stay updated. We look forward to seeing you!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView227" />
+
+            <TextView
+                android:id="@+id/textView229"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Middle Eastern and North African Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView228" />
+
+            <TextView
+                android:id="@+id/textView230"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The Middle Eastern and North African Society is place to represent and celebrate Arab, North African cultures. Our goal is to provide to our members from all ethnicities, with a platform of cultural exchange, an chance to build a network with fellow MENA individuals, as well as provide educational and professional opportunities for all students in our society and have an amazing time in our events . We aim to organise events with a broad variety of different activities to suit everyones preferences. This will include social events such as games nights, dinners,Arab ball collabs with other universities, We will also run events such as talks and panels. And through these events work with charities on fundraising for countries that are in need of humanitarian assistance."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView229" />
+
+            <TextView
+                android:id="@+id/textView231"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Music Entertainment Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView230" />
+
+            <TextView
+                android:id="@+id/textView232"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The Music Entertainment Society creates free flowing student run events for students. Our main goal is to put on exciting and entertaining events with consistent sell out shows and a positive, interactive online presence. We also offer some opportunities and experience within the society for members to become professional within their chosen industry. We aim to create an opportunity for core members to gain relevant events management skills and extra interpersonal skills to benefit a future within live events management and to display professionalism for internal and external industries and provide further opportunities for work outside of University."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView231" />
+
+            <TextView
+                android:id="@+id/textView233"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Nigerian Students Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView232" />
+
+            <TextView
+                android:id="@+id/textView234"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The Westminster university Nigerian society, will serve as an association and rallying point for prospective and existing Nigerian students within and affiliated with the university. The society will provide support to all in other to avoid homesickness and culture shock, and also to guide you to avoid common pitfalls of freshers which sadly include: being defrauded, or moving into the wrong crowds whilst seeking company. You can be guaranteed a Nigerian Jollof rice in all our activities"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView233" />
+
+            <TextView
+                android:id="@+id/textView235"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="PhD Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView234" />
+
+            <TextView
+                android:id="@+id/textView236"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We’re a student-led society that aims to help create a strong and collaborative community amongst doctoral students and staff. We believe that as an academic community, we’re at our best when we support one another to share our research, knowledge and skills. And let’s not forget the valuable and fun time spent getting to know each other over a cup of tea or a pint! The PhD Society welcomes doctoral students, staff and undergraduate or master's students too. We look forward to seeing you soon."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView235" />
+
+            <TextView
+                android:id="@+id/textView237"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Polish Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView236" />
+
+            <TextView
+                android:id="@+id/textView238"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Our Student Group will unite all Polish students at the University of Westminster. We plan to organise events such as trips, movie nights and tea afternoons. This events will be related to Polish culture and meetings that will allow everyone to get to know each other. If you are new in London or you are an international student this is a perfect opportunity for you to meet your fellow polish students, engage in Christmas present exchange, trips outside of London, and many more. All students are welcome! If you want to learn some Polish and explore our history and culture, do not hesitate! Meetings will be held depending on the circumstances of all members, which will be discussed at the first online meeting. We will be hosting many meetings to socialise, but what makes us unique is also, that we will be providing mental health support for anyone that feels isolated. The group meetings will provide you with a fun experience but also with educational support, any strugglings that you (future member) might face can be solved with us and a cup of tea! ;)"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView237" />
+
+            <TextView
+                android:id="@+id/textView239"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Politics Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView238" />
+
+            <TextView
+                android:id="@+id/textView240"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Do you have an interest in politics? Join our society to participate in regular political discussions, model United Nations events, and news trivia quizzes. Politics is constantly changing, and it is essential to stay up to date! Everyone is welcome to join, regardless of their beliefs. You will meet new people with different perspectives, and we will organise inter uni events to give you the chance to network."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView239" />
+
+            <TextView
+                android:id="@+id/textView241"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Programming Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView240" />
+
+            <TextView
+                android:id="@+id/textView242"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="The UoW Programming Society has been set up by computer science and software engineering students. Our primary aim is to help increase the pass rate of programming modules that are currently being taught at the university, make the Cavendish campus more sociable, and to learn together new programming techniques and languages. The events you can expect from us consist mostly of programming sessions on our discord server, games and various social events on Cavendish campus."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView241" />
+
+            <TextView
+                android:id="@+id/textView243"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Punjabi Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView242" />
+
+            <TextView
+                android:id="@+id/textView244"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We aim to bring Punjab’s culture into this society and its events. We plan to include people by organising events such as Bhangra Night, charity events, movie nights. To make the events more inclusive, we also plan to collaborate with other universities. People should be looking forward to a lot of fun. Who doesn’t like to spend a night dancing and enjoying with their favourite set of people? We will become the medium and provide a fantastic experience of dance nights, cultural nights and many more experiences to our group. You do not need to worry about anything, just bring yourself and have the best time of your uni life. People should also expect to see alot of new faces, as we will be collaborating with other universities for some of our events. Sounds amazing right? As a society, our aim is to include every person in our group, so we consider our groups needs, take feedback and give our 100% to improve in those areas. No one in our society would feel left out. Moreover, We provide a safe surrounding for everyone to enjoy their events, without having to worry about anything. If you are a party lover and enjoy partying in a safe environment, then this society is for you!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView243" />
+
+            <TextView
+                android:id="@+id/textView245"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Real Estate Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView244" />
+
+            <TextView
+                android:id="@+id/textView246"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:text="Westminster Real Estate Society (WRES) is a network of UoW students who are interested in real estate. The group attracts students from across all the campus' with all levels of knowledge. This is a great place to meet other students with similar interests, learn more about the property industry or learn more for your personal investments. Please note, at present (July 2022), there is no leadership with all committee roles vacant due to natural student turnover as courses end. If you are interested in leading the club, please email Raveena at the Students' Union (r.francis@westminster.ac.uk)."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView245" />
+
+            <TextView
+                android:id="@+id/textView247"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:textColor="?colorPrimary"
+                android:text="Sikh Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView246" />
+
+            <TextView
+                android:id="@+id/textView248"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Westminster Sikh Soc is a society where students from Westminster are able to all meet and be able to create a family. We loved to have a laugh and spend time with another. We create bonds that last hopefully even after your time at Westminster is done."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView247" />
+
+            <TextView
+                android:id="@+id/textView249"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Sketch Cafe"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView248" />
+
+            <TextView
+                android:id="@+id/textView250"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="We provide an environment for artistic growth where we encourage people to push themselves and improve their skills. We do sketching exercises, weekly prompts, life drawings and occasional trips to get the creative juices flowing. We will create a community that supports individuality and artistic direction whilst providing a social and safe environment. Monday at 4 pm We have fun trips such as, life drawing picnics, museum trips, competition (with prizes) and many more events to come!"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView249" />
+
+            <TextView
+                android:id="@+id/textView251"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Smoke Magazine"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView250" />
+
+            <TextView
+                android:id="@+id/textView252"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Welcome to Smoke Magazine, we are a student ran magazine for the creatives here at University of Westminster. We have decided to take Smoke Magazine in a new direction with the relaunch. Having your work printed is a very exciting concept, so we are working to make that happen within UoW. The magazine will be made from student submissions and more; whether you are studying a creative subject, or it is a hobby, we plan on taking submissions of work from anyone. Your submissions may be posted onto the Instagram account and/or printed in the magazine. What are we looking for? Anything. Advertise your new music, gigs, exhibitions, film screenings etc. Submit the results of your latest photoshoot. Send in your fashion illustrations or garments. Submit photographs of your artwork. You could even use the magazine to advertise that you are looking for actors for a film, models for a shoot, etc. This magazine is for students, so anything you see fit. You don’t have to be studying a creative subject to send in your work. We want to connect all in one platform. We are aware that most magazines have their own visual aesthetic, that is not what we will be doing here at Smoke, we want everyone to feel like they can submit to the magazine no matter their style, so don’t be shy. How to submit: You can email us the work at mag@smoke.media . Please include your name, social media @’s and the course you are studying. You can also tell us about your work and about yourself as a creative (find more information on our Instagram Highlights). Please note: depending on the level of submissions, not everything may be printed in the magazine. But our team will make sure that the decision making is fair."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView251" />
+
+            <TextView
+                android:id="@+id/textView253"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Smoke Radio"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView252" />
+
+            <TextView
+                android:id="@+id/textView254"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Smoke Radio is the University of Westminster's award-winning radio station. Listen to Smoke Radio 24 hours a day, and get involved with music streams, curation, podcasts, journalism, and more! We are always happy to accept new members who are interested in a variety of areas in radio, from management to artist submissions to podcast creation and more. We are particularly keen on finding people with technical skills, but have space in our society for all levels of experience. https://smokeradio.live/"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView253" />
+
+            <TextView
+                android:id="@+id/textView255"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:textColor="?colorPrimary"
+                android:paddingTop="10dp"
+                android:text="Somali Society"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView254" />
+
+            <TextView
+                android:id="@+id/textView256"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="Our society aims to bring people of different ethnic backgrounds and cultures together as well as building an amazing community. Our society aims to promote Somali culture by taking part in insightful activities and exciting events such as cultural games. Being able to get involved and participate in this society will help you not only interact and connect with other individuals from the same community but also grow and develop culturally. As a society our goal is to creat exciting events every two weeks whether it’s online or in person. We also provide different platforms that will allow everyone to keep in touch and stay in contact with either peers or the committee The best thing about our society is being able to feel like you belong to a great community. Our society environment provides the feeling of ease and . Students are able to identify with each other and learn about Somali culture and history."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView255" />
+
+            <TextView
+                android:id="@+id/textView257"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="?colorPrimary"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="20dp"
+                android:text="For more University of Westminster Student Union Society Groups, please visit https://uwsu.com/societies, alternatively please press the UWSU Society Groups button below."
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView256" />
+
+            <Button
+                android:id="@+id/uWSUSocietyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="?colorSecondary"
+                android:text="@string/uwsuSocietyGroups"
+                android:layout_marginTop="15dp"
+                android:textAlignment="textStart"
+                android:textColor="?colorAccent"
+                android:drawableLeft="@drawable/ic_sportsgroups"
+                android:drawableTint="?colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView257" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bottom_menu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/bottomMenuShape"
+        android:layout_width="421dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/navshape"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageButton
+        android:id="@+id/navHomeBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_home"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/home"
+        app:tint="?colorAccent" />
+
+    <ImageButton
+        android:id="@+id/navProfileBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_profile"
+        android:layout_toEndOf="@+id/navHomeBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/profile"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navUowMessage"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_uow_message_icon1"
+        android:layout_toEndOf="@+id/navProfileBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/uowMessage"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navSettings"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_settings"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/settings"
+        app:tint="?colorAccent"/>
+
+</RelativeLayout>

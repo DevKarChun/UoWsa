@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorOnTertiaryContainer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/profileBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_profilebackgroundupdate" />
+
+            <TextView
+                android:id="@+id/profileShape"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="220dp"
+                android:background="@drawable/profilecircle"
+                android:paddingStart="8dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImage"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="5dp"
+                app:civ_border_width="2dp"
+                app:layout_constraintEnd_toEndOf="@+id/profileShape"
+                app:layout_constraintStart_toStartOf="@+id/profileShape"
+                app:layout_constraintTop_toTopOf="@+id/profileShape" />
+
+            <TextView
+                android:id="@+id/connectivityStatusShape"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/connectivity_shape"
+                app:layout_constraintBottom_toBottomOf="@+id/profileImage"
+                app:layout_constraintEnd_toEndOf="@+id/profileShape" />
+
+            <TextView
+                android:id="@+id/connectivityStatus"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginBottom="16.8dp"
+                android:layout_marginEnd="1.8dp"
+                android:background="@drawable/connectivity_status_offline"
+                app:layout_constraintBottom_toBottomOf="@+id/profileImage"
+                app:layout_constraintEnd_toEndOf="@+id/profileShape" />
+
+            <ImageButton
+                android:id="@+id/editImageBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="?colorOnTertiaryContainer"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_uploadimage"
+                app:layout_constraintStart_toEndOf="@+id/profileShape"
+                app:layout_constraintTop_toTopOf="@+id/profileShape"
+                app:tint="?colorSecondaryVariant" />
+
+            <ImageButton
+                android:id="@+id/uploadBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="?colorOnTertiaryContainer"
+                android:src="@drawable/ic_completeupload"
+                app:layout_constraintEnd_toEndOf="@+id/profileBackground"
+                android:visibility="invisible"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/editImageBtn"
+                app:layout_constraintTop_toTopOf="@+id/profileShape"
+                app:tint="?colorSecondaryVariant" />
+
+            <TextView
+                android:id="@+id/namePlaceholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textColor="?colorPrimary"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/profileShape" />
+
+            <TextView
+                android:id="@+id/optional1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="invisible"
+                android:textSize="16sp"
+                android:textColor="?colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/namePlaceholder" />
+
+            <TextView
+                android:id="@+id/optional2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:textColor="?colorPrimary"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/optional1" />
+
+            <TextView
+                android:id="@+id/statusMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="?colorPrimary"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/namePlaceholder" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bottom_menu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/bottomMenuShape"
+        android:layout_width="421dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/navshape"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageButton
+        android:id="@+id/navHomeBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_home"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/home"
+        app:tint="?colorAccent" />
+
+    <ImageButton
+        android:id="@+id/navProfileBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_profile"
+        android:layout_toEndOf="@+id/navHomeBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/profile"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navUowMessage"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_uow_message_icon1"
+        android:layout_toEndOf="@+id/navProfileBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/uowMessage"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navSettings"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_settings"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/settings"
+        app:tint="?colorAccent"/>
+</RelativeLayout>

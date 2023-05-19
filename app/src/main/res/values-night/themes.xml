@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UoWsa" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimaryVariant">@color/primeBlue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorOutline">@color/primeBlue</item>
+        <item name="color">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/homeBackgroundDark</item>
+        <item name="colorOnSecondary">@color/buttonBackgroundDark</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/darkModeSecondary</item>
+        <!-- Customize your theme here. -->
+        <item name="colorOnBackground">@color/backgroundDarkMode</item>
+        <item name="colorAccent">@color/navBarLightMode</item>
+        <item name="colorSecondaryVariant">@color/navBarDarkMode</item>
+        <item name="colorError">@color/colorErrorDarkMode</item>
+        <item name="colorBackgroundFloating">@color/navBarLightMode</item>
+        <item name="colorSurface">@color/navBarDarkMode</item>
+        <item name="colorOnTertiaryContainer">@color/backgroundDarkMode</item>
+        <item name="colorOnSurfaceInverse">@color/colorRecMessage</item>
+        <item name="colorPrimary">@color/navBarLightMode</item>
+        <item name="colorOnPrimarySurface">@color/messageBackgroundDarkMode</item>
+        <item name="colorOnSecondaryContainer">@color/pendingDarkMode</item>
+        <item name="colorErrorContainer">@color/colorErrorDarkMode</item>
+        <item name="colorControlHighlight">@color/navBarDarkMode</item>
+        <item name="colorControlNormal">@color/onlineDarkMode</item>
+    </style>
+
+    <style name="MyTextInputLayout_overlay">
+        <item name="colorOnSurface">@color/lightModePrimary</item>
+        <item name="colorPrimary">@color/lightModePrimary</item>
+        <item name="hintTextColor">@color/lightModePrimary</item>
+        <item name="textOutlineColor">@color/lightModePrimary</item>
+    </style>
+
+    <style name="DialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:colorBackground">@color/navLight</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+<!--    <style name="homeActivity">-->
+<!--        <item name="colorOnBackground">@color/homeBackgroundDark</item>-->
+<!--        <item name="colorAccent">@color/darkNav</item>-->
+<!--        <item name="colorPrimaryVariant">@color/buttonBackgroundDark</item>-->
+<!--        <item name="colorSecondaryVariant">@color/iconDarkBackground</item>-->
+<!--        <item name="colorError">@color/homeLogoutDark</item>-->
+<!--    </style>-->
+
+</resources>

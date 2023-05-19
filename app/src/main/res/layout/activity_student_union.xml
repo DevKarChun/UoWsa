@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorSecondary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="90dp">
+
+            <TextView
+                android:id="@+id/studentUnionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/titlebar"
+                android:paddingStart="32dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/studentUnion"
+                android:fontFamily="@font/merriweather_black"
+                android:textColor="?colorAccent"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry" />
+
+
+            <ImageView
+                android:id="@+id/studentUnionImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentUnionTitle"
+                app:srcCompat="@drawable/ic_studentunionimage"
+                android:contentDescription="@string/studentUnion" />
+
+            <ImageButton
+                android:id="@+id/facebook"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="?colorSecondary"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintStart_toStartOf="@+id/studentUnionImage"
+                app:srcCompat="@drawable/ic_facebook"
+                android:contentDescription="@string/facebook" />
+
+            <ImageButton
+                android:id="@+id/twitter"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="?colorSecondary"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintStart_toEndOf="@+id/facebook"
+                app:srcCompat="@drawable/ic_twitter"
+                android:contentDescription="@string/twitter" />
+
+            <ImageButton
+                android:id="@+id/instagram"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="?colorSecondary"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintStart_toEndOf="@+id/twitter"
+                app:srcCompat="@drawable/ic_instagram"
+                android:contentDescription="@string/instagram" />
+
+            <ImageButton
+                android:id="@+id/linkedin"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="?colorSecondary"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintStart_toEndOf="@+id/instagram"
+                app:srcCompat="@drawable/ic_linkedin"
+                android:contentDescription="@string/linkedIn" />
+
+            <ImageButton
+                android:id="@+id/youtube"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="?colorSecondary"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintStart_toEndOf="@+id/linkedin"
+                app:srcCompat="@drawable/ic_youtube"
+                android:contentDescription="@string/youTube" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="264dp"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="@string/su1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentUnionTitle">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textColor="?colorPrimary"
+                android:text="@string/su2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="?colorPrimary"
+                android:text="@string/su3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="?colorPrimary"
+                android:text="@string/su4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="?colorPrimary"
+                android:text="@string/su5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="?colorPrimary"
+                android:text="@string/su6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="?colorPrimary"
+                android:text="@string/su7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="?colorPrimary"
+                android:text="@string/su8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="?colorPrimary"
+                android:text="@string/su9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="?colorPrimary"
+                android:text="@string/su10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView10" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="?colorPrimary"
+                android:text="@string/su11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView11" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="?colorPrimary"
+                android:text="@string/su12"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView12" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:textColor="?colorPrimary"
+                android:text="@string/su13"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView13" />
+
+            <TextView
+                android:id="@+id/getInTouch"
+                android:layout_width="180dp"
+                android:layout_height="144dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/studentunioninfobox"
+                android:paddingStart="20dp"
+                android:paddingTop="20dp"
+                android:text="@string/get_in_touch"
+                android:textColor="?colorBackgroundFloating"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/textView14"
+                app:layout_constraintTop_toBottomOf="@+id/textView14"
+                tools:ignore="RtlSymmetry" />
+
+
+            <TextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="56dp"
+                android:text="@string/_02079115000"
+                android:textColor="?colorBackgroundFloating"
+                app:layout_constraintBottom_toBottomOf="@+id/getInTouch"
+                app:layout_constraintEnd_toEndOf="@+id/getInTouch"
+                app:layout_constraintTop_toTopOf="@id/getInTouch"
+                app:layout_constraintVertical_bias="0.536" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="25dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="88dp"
+                android:paddingEnd="3dp"
+                android:src="@drawable/ic_phone"
+                app:layout_constraintEnd_toEndOf="@id/phoneNumber"
+                app:layout_constraintTop_toTopOf="@id/getInTouch"
+                tools:ignore="RtlSymmetry"
+                android:contentDescription="@string/phone" />
+
+            <TextView
+                android:id="@+id/emailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:text="@string/suEmail"
+                android:textColor="?colorBackgroundFloating"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/getInTouch"
+                app:layout_constraintEnd_toEndOf="@+id/getInTouch"
+                app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
+                tools:ignore="SmallSp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="12dp"
+                android:paddingEnd="3dp"
+                android:src="@drawable/ic_email"
+                app:layout_constraintEnd_toStartOf="@+id/emailAddress"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                tools:ignore="RtlSymmetry"
+                android:contentDescription="@string/Email" />
+
+            <TextView
+                android:id="@+id/whereToFindUs"
+                android:layout_width="180dp"
+                android:layout_height="144dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/studentunioninfobox"
+                android:paddingStart="20dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="10dp"
+                android:text="@string/suLocation"
+                android:textColor="?colorBackgroundFloating"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView14"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <TextView
+                android:id="@+id/address1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="56dp"
+                android:text="@string/suAddress"
+                android:textColor="?colorBackgroundFloating"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="@+id/whereToFindUs"
+                app:layout_constraintHorizontal_bias="0.358"
+                app:layout_constraintStart_toStartOf="@+id/whereToFindUs"
+                app:layout_constraintTop_toTopOf="@+id/whereToFindUs"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/address2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/london_nw1_5ls_room_mg02"
+                android:textColor="?colorBackgroundFloating"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="@id/whereToFindUs"
+                app:layout_constraintHorizontal_bias="0.38"
+                app:layout_constraintStart_toStartOf="@id/whereToFindUs"
+                app:layout_constraintTop_toBottomOf="@+id/address1"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/address3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/suOfficeTime"
+                android:textColor="?colorBackgroundFloating"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="@id/whereToFindUs"
+                app:layout_constraintHorizontal_bias="0.195"
+                app:layout_constraintStart_toStartOf="@id/whereToFindUs"
+                app:layout_constraintTop_toBottomOf="@+id/address2"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/suTime"
+                android:textColor="?colorBackgroundFloating"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="@id/whereToFindUs"
+                app:layout_constraintHorizontal_bias="0.306"
+                app:layout_constraintStart_toStartOf="@id/whereToFindUs"
+                app:layout_constraintTop_toBottomOf="@+id/address3"
+                tools:ignore="SmallSp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bottom_menu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/bottomMenuShape"
+        android:layout_width="421dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/navshape"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageButton
+        android:id="@+id/navHomeBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_home"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/home"
+        app:tint="?colorAccent" />
+
+    <ImageButton
+        android:id="@+id/navProfileBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_profile"
+        android:layout_toEndOf="@+id/navHomeBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/profile"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navUowMessage"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_uow_message_icon1"
+        android:layout_toEndOf="@+id/navProfileBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/uowMessage"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navSettings"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_settings"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/settings"
+        app:tint="?colorAccent"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UoWsa"
+        tools:targetApi="31">
+        <activity
+            android:name=".discussionboard.forummessaging.StudentUnionForumMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forummessaging.RegentsCampusForumMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forummessaging.OtherForumMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forummessaging.MaryleboneCampusForumMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forummessaging.HarrowCampusForumMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forummessaging.ClubsAndSocietiesForumMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forummessaging.CavendishCampusForumMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forummessaging.AccommodationForumMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.createnewforum.StudentUnionNewForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.createnewforum.RegentsCampusNewForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.createnewforum.OtherNewForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.createnewforum.MaryleboneCampusNewForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.createnewforum.HarrowCampusNewForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.createnewforum.ClubsAndSocietiesNewForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.createnewforum.CavendishCampusNewForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.createnewforum.AccommodationNewForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.dbactivity.ForumOtherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.dbactivity.ForumMaryleboneCampusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.dbactivity.ForumRegentsCampusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.dbactivity.ForumHarrowCampusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".testac"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.dbactivity.ForumCavendishCampusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.dbactivity.ForumClubsAndSocietiesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.dbactivity.ForumStudentUnionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AdminMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ContactAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forummessaging.EventsForumMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.createnewforum.EventsNewForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forumprofile.OtherProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forumprofile.MaryleboneCampusProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forumprofile.RegentsCampusProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forumprofile.HarrowCampusProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forumprofile.CavendishCampusProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forumprofile.ClubsAndSocietiesProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forumprofile.StudentUnionProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.dbactivity.ForumAccommodationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.dbactivity.ForumEventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forumprofile.AccommodationProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forumprofile.EventsProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forumprofile.StudyProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UoWMessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.dbactivity.ForumStudyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.createnewforum.StudyNewForumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".discussionboard.forummessaging.StudyForumMessagingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".discussionboard.dbprofile.DBStudentWellbeingProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".discussionboard.dbprofile.DBMakeNewFriendsProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".discussionboard.dbprofile.DBGeneralProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".discussionboard.DBOtherActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.DBMaryleboneCampusActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.DBRegentsCampusActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.DBHarrowCampusActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.DBCavendishCampusActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.dbactivity.DBStudentWellbeingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.DBClubsAndSocietiesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.DBStudentUnionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.DBAccommodationActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.DBEventsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.dbactivity.DBMakeNewFriendsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.DBStudyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".discussionboard.dbactivity.DBGeneralActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.BlockedListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FriendBlockOrRemoveActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RequestedUserActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OtherUserActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FriendRequestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SearchFriendsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MessageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.SocietyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SportsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ToSActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DeleteAccountActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HelpCenterActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TermsOfServiceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UpdateProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.DiscussionBoardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.FriendsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.StudentUnionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.StudentCommunityActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.StudentWellbeingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.UoWMessageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.ForgotPasswordActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="vanilla">#E4E7DD</color>
+    <color name="navy">#233E6A</color>
+    <color name="systemMenuColor">#0E192B</color>
+    <color name="darkError">#E14141</color>
+    <color name="lightError">#FF6D6D</color>
+    <color name="peach">#E1B17E</color>
+    <color name="primeBlue">#7289da</color>
+    <color name="lightModePrimary">#E4E7DD</color>
+    <color name="darkModePrimary">#36393F</color>
+    <color name="darkModeSecondary">#2C3135</color>
+    <color name="menuText">#8B9EFF</color>
+    <color name="homeMenuText">#76EB35</color>
+    <color name="lightModeText">#49AE7D</color>
+    <color name="greyText">#AFAFAF</color>
+    <color name="btnDarkColour">#7289da</color>
+    <color name="btnLightColour">#2067F4</color>
+    <color name="greyL">#888888</color>
+    <color name="navLight">#D8D8D8</color>
+    <color name="homeLogoutLight">#497174</color>
+    <color name="homeLogoutDark">#D05656</color>
+    <color name="homeBackgroundDark">#222831</color>
+    <color name="darkNav">#36393F</color>
+    <color name="buttonBackgroundDark">#566371</color>
+    <color name="iconDarkBackground">#5269B9</color>
+    <color name="darkNavIcon">#C5F1F5</color>
+    <color name="backgroundColorLight">#CECECE</color>#
+    <color name="acceptLight">#2DCC00</color>
+    <color name="acceptDark">#86D369</color>
+    <color name="itemRightBackgroundLight">#436467</color>
+    <color name="itemLeftBackgroundLight">#D8D8D8</color>
+    <color name="itemRightBackgroundDark">#2F4749</color>
+    <color name="itemLeftBackgroundDark">#353940</color>
+
+
+
+    <color name="backgroundLightMode">#D9D9D9</color>
+    <color name="backgroundDarkMode">#222831</color>
+    <color name="navBarLightMode">#f4f3f3</color>
+    <color name="navBarDarkMode">#588EE8</color>
+    <color name="buttonColorLightMode">#233E6A</color>
+    <color name="buttonColorDarkMode">#f4f3f3</color>
+    <color name="colorErrorLightMode">#FC0D38</color>
+    <color name="colorErrorDarkMode">#FF4D4D</color>
+    <color name="colorRecMessage">#5E6B7D</color>
+    <color name="senderMessageColor">#588EE8</color>
+    <color name="receiverColorLightMode">#f4f3f3</color>
+    <color name="receiverColorDarkMode">#5E6B7D</color>
+    <color name="messageBackgroundDarkMode">#323B48</color>
+    <color name="pendingLightMode">#323B48</color>
+    <color name="pendingDarkMode">#323B48</color>
+    <color name="onlineLightMode">#34B511</color>
+    <color name="onlineDarkMode">#6EBF58</color>
+</resources>

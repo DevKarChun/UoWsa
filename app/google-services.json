@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450917033142",
+    "project_id": "uowsa-a8a15",
+    "storage_bucket": "uowsa-a8a15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450917033142:android:edb1231ae7167576fb3217",
+        "android_client_info": {
+          "package_name": "com.example.uowsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450917033142-5d3u2jq1rah42fiblinm7d7nf2uagm9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClRvhri5C0UdQM-GWWhdsU8TtbbDWhFB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450917033142-5d3u2jq1rah42fiblinm7d7nf2uagm9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorSecondary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100dp">
+
+            <TextView
+                android:id="@+id/titleBar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/titlebar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/coa"
+                android:layout_width="43dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="@+id/titleBar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_uowcoa" />
+
+            <TextView
+                android:id="@+id/UoWsa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/merriweather_black"
+                android:text="@string/app_name"
+                android:textColor="?colorAccent"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="@+id/titleBar"
+                app:layout_constraintStart_toEndOf="@+id/coa"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/logoutBtn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="15dp"
+                android:backgroundTint="?colorOnTertiaryContainer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_logout"
+                app:tint="?colorError" />
+
+            <ImageView
+                android:id="@+id/homeImage"
+                android:layout_width="411dp"
+                android:layout_height="223dp"
+                android:layout_marginTop="56dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/titleBar"
+                app:srcCompat="@drawable/ic_uowmm" />
+
+            <Button
+                android:id="@+id/discussionBoard"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="?colorSecondaryVariant"
+                android:drawableTop="@drawable/ic_discussion_board_icon"
+                android:drawableTint="?colorBackgroundFloating"
+                android:fontFamily="@font/inter_semibold"
+                android:gravity="center|bottom"
+                android:text="@string/discussionBoard"
+                android:textColor="?colorBackgroundFloating"
+                android:textSize="11sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/homeImage" />
+
+            <Button
+                android:id="@+id/friends"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="?colorSecondaryVariant"
+                android:drawableTop="@drawable/ic_friends_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/friends"
+                android:textSize="11sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintStart_toEndOf="@+id/discussionBoard"
+                app:layout_constraintTop_toBottomOf="@+id/homeImage"
+                android:drawableTint="?colorBackgroundFloating"
+                android:textColor="?colorBackgroundFloating"/>
+
+            <Button
+                android:id="@+id/uowMessage"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="9dp"
+                android:backgroundTint="?colorSecondaryVariant"
+                android:drawableTop="@drawable/ic_uow_message_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/uowMessage"
+                android:textSize="11sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/friends"
+                app:layout_constraintTop_toBottomOf="@+id/homeImage"
+                android:drawableTint="?colorBackgroundFloating"
+                android:textColor="?colorBackgroundFloating"/>
+
+            <Button
+                android:id="@+id/studentUnion"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="?colorSecondaryVariant"
+                android:drawableTop="@drawable/ic_students_union"
+                android:fontFamily="@font/inter_semibold"
+                android:gravity="center|bottom"
+                android:text="@string/studentUnion"
+                android:textSize="11sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/discussionBoard"
+                android:drawableTint="?colorBackgroundFloating"
+                android:textColor="?colorBackgroundFloating"/>
+
+            <Button
+                android:id="@+id/clubsAndSocieties"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="?colorSecondaryVariant"
+                android:drawableTop="@drawable/ic_clubs_and_societies"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/clubsAndSocieties"
+                android:gravity="center|bottom"
+                android:textSize="11sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintStart_toEndOf="@+id/studentUnion"
+                app:layout_constraintTop_toBottomOf="@+id/friends"
+                android:drawableTint="?colorBackgroundFloating"
+                android:textColor="?colorBackgroundFloating"/>
+
+            <Button
+                android:id="@+id/studentWellbeing"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="9dp"
+                android:backgroundTint="?colorSecondaryVariant"
+                android:drawableTop="@drawable/ic_student_wellbeing_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/studentWellbeing"
+                android:gravity="center|bottom"
+                android:textSize="11sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/clubsAndSocieties"
+                app:layout_constraintTop_toBottomOf="@+id/uowMessage"
+                android:drawableTint="?colorBackgroundFloating"
+                android:textColor="?colorBackgroundFloating"/>
+
+            <Button
+                android:id="@+id/profile"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="?colorSecondaryVariant"
+                android:drawableTop="@drawable/ic_profile"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/profile"
+                android:textSize="11sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/studentUnion"
+                android:drawableTint="?colorBackgroundFloating"
+                android:textColor="?colorBackgroundFloating"/>
+
+            <Button
+                android:id="@+id/settings"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="?colorSecondaryVariant"
+                android:drawableTop="@drawable/ic_settings"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/settings"
+                android:textSize="11sp"
+                app:cornerRadius="15dp"
+                app:layout_constraintStart_toEndOf="@+id/profile"
+                app:layout_constraintTop_toBottomOf="@+id/clubsAndSocieties"
+                android:drawableTint="?colorBackgroundFloating"
+                android:textColor="?colorBackgroundFloating"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bottom_menu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/bottomMenuShape"
+        android:layout_width="421dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/navshape"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageButton
+        android:id="@+id/navHomeBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_home"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/home"
+        app:tint="?colorAccent" />
+
+    <ImageButton
+        android:id="@+id/navProfileBtn"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_profile"
+        android:layout_toEndOf="@+id/navHomeBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/profile"
+        app:tint="?colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/navUowMessage"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_uow_message_icon1"
+        android:layout_toEndOf="@+id/navProfileBtn"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/uowMessage"
+        app:tint="?colorAccent"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/messageCounter"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_marginStart="53dp"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/message_counter"-->
+<!--        android:layout_toEndOf="@+id/navProfileBtn"-->
+<!--        android:layout_alignTop="@+id/navUowMessage"-->
+<!--        android:visibility="invisible"-->
+<!--        app:drawableTint="?colorErrorContainer" />-->
+
+
+    <ImageButton
+        android:id="@+id/navSettings"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="?colorSurface"
+        android:src="@drawable/ic_settings"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/settings"
+        app:tint="?colorAccent"/>
+
+</RelativeLayout>
