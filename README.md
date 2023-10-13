@@ -6,7 +6,7 @@ University of Westminster Student Social Platform Mobile Application (UoWsa) is 
 <img src="https://github.com/DevKarChun/UoWsa/blob/main/images/start%20up%20dark%20mode.png" width="250">
 
 ## App Home Menu
-<img src="![](https://github.com/DevKarChun/UoWsa/blob/main/images/Home2.png)" width="250">
+<img src="https://github.com/DevKarChun/UoWsa/blob/main/images/Home2.png" width="250">
 <img src="https://github.com/DevKarChun/UoWsa/blob/main/images/home1.png" width="250">
 
 ## Report
