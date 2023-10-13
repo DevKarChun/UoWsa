@@ -2,6 +2,7 @@
 University of Westminster Student Social Platform Mobile Application (UoWsa) is a chat application built using Android Kotlin and Firebase Realtime database.
 
 ## App Startup
+<img src="https://github.com/DevKarChun/UoWsa/blob/main/images/start%20up%20light%20mode.png" width="250">
 ![](https://github.com/DevKarChun/UoWsa/blob/main/images/start%20up%20light%20mode.png)
 ![](https://github.com/DevKarChun/UoWsa/blob/main/images/start%20up%20dark%20mode.png)
 
