@@ -3,7 +3,7 @@ University of Westminster Student Social Platform Mobile Application (UoWsa) is 
 
 ## Screenshots
 
-#Report
+# Report
 Please refer to https://github.com/DevKarChun/UoWsa/blob/main/6COS023W_FinalYearReport_w1807769_ChristopherWong.pdf for the final report.
 
 © [Dev Kar Chun](https://github.com/DevKarChun)
